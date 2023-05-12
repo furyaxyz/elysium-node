@@ -7,12 +7,12 @@ import (
 	"github.com/filecoin-project/dagstore"
 	"github.com/tendermint/tendermint/types"
 
-	"github.com/elysiumorg/elysium-app/pkg/da"
-	appshares "github.com/elysiumorg/elysium-app/pkg/shares"
-	"github.com/elysiumorg/rsmt2d"
+	"github.com/furyaxyz/elysium-app/pkg/da"
+	appshares "github.com/furyaxyz/elysium-app/pkg/shares"
+	"github.com/furyaxyz/rsmt2d"
 
-	"github.com/elysiumorg/elysium-node/share"
-	"github.com/elysiumorg/elysium-node/share/eds"
+	"github.com/furyaxyz/elysium-node/share"
+	"github.com/furyaxyz/elysium-node/share/eds"
 )
 
 // extendBlock extends the given block data, returning the resulting

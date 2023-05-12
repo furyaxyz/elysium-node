@@ -279,7 +279,7 @@ In the case where a node operator wants to send data from elysium-node to an OTE
             key_file: /home/cert-key.pem
     ```
 
-1. Ensure that elysium-node runs with a TLS config that contains the Root CA created in step 1. See [sample code](https://github.com/elysiumorg/elysium-node/blob/rp/tracing-with-tls/cmd/flags_misc.go#L173-L199)
+1. Ensure that elysium-node runs with a TLS config that contains the Root CA created in step 1. See [sample code](https://github.com/furyaxyz/elysium-node/blob/rp/tracing-with-tls/cmd/flags_misc.go#L173-L199)
 
 #### What are the resource requirements of OTEL collector?
 
@@ -291,10 +291,10 @@ Proposed
 
 ## References
 
-- <https://github.com/elysiumorg/elysium-node/pull/901>
-- <https://github.com/elysiumorg/elysium-node/pull/907>
+- <https://github.com/furyaxyz/elysium-node/pull/901>
+- <https://github.com/furyaxyz/elysium-node/pull/907>
 - <https://opentelemetry.io/docs/collector/>
 - <https://elysium-team.slack.com/archives/C03QAJVLHK3/p1658169362548589>
-- <https://www.notion.so/elysiumorg/Telemetry-Dashboard-d85550a3caee4004b00a2e3bf82619b1>
-- <https://www.notion.so/elysiumorg/TLS-for-telemetry-6ce8e321616140a6be64ed27e99dc791>
+- <https://www.notion.so/furyaxyz/Telemetry-Dashboard-d85550a3caee4004b00a2e3bf82619b1>
+- <https://www.notion.so/furyaxyz/TLS-for-telemetry-6ce8e321616140a6be64ed27e99dc791>
 - <https://lightstep.com/opentelemetry/collecting-and-exporting-data#opentelemetry-collector>

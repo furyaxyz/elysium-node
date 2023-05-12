@@ -9,7 +9,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/elysiumorg/elysium-node/share"
+	"github.com/furyaxyz/elysium-node/share"
 )
 
 // TestODSReader ensures that the reader returned from ODSReader is capable of reading the CAR

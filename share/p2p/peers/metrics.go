@@ -14,7 +14,7 @@ import (
 	"go.opentelemetry.io/otel/metric/instrument/asyncint64"
 	"go.opentelemetry.io/otel/metric/instrument/syncint64"
 
-	"github.com/elysiumorg/elysium-node/share/p2p/shrexsub"
+	"github.com/furyaxyz/elysium-node/share/p2p/shrexsub"
 )
 
 const (

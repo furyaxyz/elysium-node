@@ -9,7 +9,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/elysiumorg/elysium-node/header"
+	"github.com/furyaxyz/elysium-node/header"
 )
 
 func TestCompletionHelpString(t *testing.T) {

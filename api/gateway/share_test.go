@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elysiumorg/elysium-app/pkg/appconsts"
+	"github.com/furyaxyz/elysium-app/pkg/appconsts"
 )
 
 func Test_dataFromShares(t *testing.T) {

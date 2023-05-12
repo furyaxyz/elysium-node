@@ -1,11 +1,11 @@
 package header
 
 import (
-	libhead "github.com/elysiumorg/go-header"
-	"github.com/elysiumorg/go-header/p2p"
-	"github.com/elysiumorg/go-header/sync"
+	libhead "github.com/furyaxyz/go-header"
+	"github.com/furyaxyz/go-header/p2p"
+	"github.com/furyaxyz/go-header/sync"
 
-	"github.com/elysiumorg/elysium-node/header"
+	"github.com/furyaxyz/elysium-node/header"
 )
 
 // WithMetrics provides sets `MetricsEnabled` to true on ClientParameters for the header exchange

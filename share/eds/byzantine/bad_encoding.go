@@ -5,15 +5,15 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/elysiumorg/elysium-app/pkg/appconsts"
-	"github.com/elysiumorg/elysium-app/pkg/wrapper"
-	"github.com/elysiumorg/go-fraud"
-	libhead "github.com/elysiumorg/go-header"
-	"github.com/elysiumorg/rsmt2d"
+	"github.com/furyaxyz/elysium-app/pkg/appconsts"
+	"github.com/furyaxyz/elysium-app/pkg/wrapper"
+	"github.com/furyaxyz/go-fraud"
+	libhead "github.com/furyaxyz/go-header"
+	"github.com/furyaxyz/rsmt2d"
 
-	"github.com/elysiumorg/elysium-node/header"
-	pb "github.com/elysiumorg/elysium-node/share/eds/byzantine/pb"
-	"github.com/elysiumorg/elysium-node/share/ipld"
+	"github.com/furyaxyz/elysium-node/header"
+	pb "github.com/furyaxyz/elysium-node/share/eds/byzantine/pb"
+	"github.com/furyaxyz/elysium-node/share/ipld"
 )
 
 const (

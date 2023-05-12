@@ -9,8 +9,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	nodebuilder "github.com/elysiumorg/elysium-node/nodebuilder/node"
-	"github.com/elysiumorg/elysium-node/nodebuilder/p2p"
+	nodebuilder "github.com/furyaxyz/elysium-node/nodebuilder/node"
+	"github.com/furyaxyz/elysium-node/nodebuilder/p2p"
 )
 
 func TestNewLightWithP2PKey(t *testing.T) {

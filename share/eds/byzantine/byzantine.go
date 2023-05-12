@@ -6,10 +6,10 @@ import (
 
 	"github.com/ipfs/go-blockservice"
 
-	"github.com/elysiumorg/elysium-app/pkg/da"
-	"github.com/elysiumorg/rsmt2d"
+	"github.com/furyaxyz/elysium-app/pkg/da"
+	"github.com/furyaxyz/rsmt2d"
 
-	"github.com/elysiumorg/elysium-node/share/ipld"
+	"github.com/furyaxyz/elysium-node/share/ipld"
 )
 
 // ErrByzantine is a thrown when recovered data square is not correct

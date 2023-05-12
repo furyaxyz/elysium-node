@@ -7,13 +7,13 @@ import (
 	"github.com/libp2p/go-libp2p/core/peer"
 	"github.com/multiformats/go-multiaddr"
 
-	libhead "github.com/elysiumorg/go-header"
-	p2p_exchange "github.com/elysiumorg/go-header/p2p"
-	"github.com/elysiumorg/go-header/store"
-	"github.com/elysiumorg/go-header/sync"
+	libhead "github.com/furyaxyz/go-header"
+	p2p_exchange "github.com/furyaxyz/go-header/p2p"
+	"github.com/furyaxyz/go-header/store"
+	"github.com/furyaxyz/go-header/sync"
 
-	"github.com/elysiumorg/elysium-node/nodebuilder/node"
-	"github.com/elysiumorg/elysium-node/nodebuilder/p2p"
+	"github.com/furyaxyz/elysium-node/nodebuilder/node"
+	"github.com/furyaxyz/elysium-node/nodebuilder/p2p"
 )
 
 // Config contains configuration parameters for header retrieval and management.

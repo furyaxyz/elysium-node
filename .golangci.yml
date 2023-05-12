@@ -63,6 +63,6 @@ linters-settings:
   misspell:
     locale: US
   goimports:
-    local-prefixes: github.com/elysiumorg/elysium-node
+    local-prefixes: github.com/furyaxyz/elysium-node
   dupl:
     threshold: 200

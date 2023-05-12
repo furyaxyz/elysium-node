@@ -6,7 +6,7 @@ import (
 
 	"github.com/ipfs/go-datastore"
 
-	"github.com/elysiumorg/go-fraud"
+	"github.com/furyaxyz/go-fraud"
 )
 
 // service defines minimal interface with service lifecycle methods

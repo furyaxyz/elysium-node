@@ -12,7 +12,7 @@ import (
 	"go.opentelemetry.io/otel/metric/instrument/syncfloat64"
 	"go.opentelemetry.io/otel/metric/instrument/syncint64"
 
-	"github.com/elysiumorg/elysium-node/header"
+	"github.com/furyaxyz/elysium-node/header"
 )
 
 const (

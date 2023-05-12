@@ -11,8 +11,8 @@ import (
 	"github.com/spf13/cobra"
 	flag "github.com/spf13/pflag"
 
-	"github.com/elysiumorg/elysium-node/nodebuilder"
-	"github.com/elysiumorg/elysium-node/nodebuilder/p2p"
+	"github.com/furyaxyz/elysium-node/nodebuilder"
+	"github.com/furyaxyz/elysium-node/nodebuilder/p2p"
 )
 
 var (

@@ -6,8 +6,8 @@ import (
 
 	"github.com/cosmos/cosmos-sdk/crypto/keyring"
 
-	"github.com/elysiumorg/elysium-app/app"
-	"github.com/elysiumorg/elysium-app/app/encoding"
+	"github.com/furyaxyz/elysium-app/app"
+	"github.com/furyaxyz/elysium-app/app/encoding"
 )
 
 // mapKeystore is a simple in-memory Keystore implementation.

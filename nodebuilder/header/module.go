@@ -9,15 +9,15 @@ import (
 	"github.com/libp2p/go-libp2p/core/host"
 	"go.uber.org/fx"
 
-	libhead "github.com/elysiumorg/go-header"
-	"github.com/elysiumorg/go-header/p2p"
-	"github.com/elysiumorg/go-header/store"
-	"github.com/elysiumorg/go-header/sync"
+	libhead "github.com/furyaxyz/go-header"
+	"github.com/furyaxyz/go-header/p2p"
+	"github.com/furyaxyz/go-header/store"
+	"github.com/furyaxyz/go-header/sync"
 
-	"github.com/elysiumorg/elysium-node/header"
-	modfraud "github.com/elysiumorg/elysium-node/nodebuilder/fraud"
-	"github.com/elysiumorg/elysium-node/nodebuilder/node"
-	modp2p "github.com/elysiumorg/elysium-node/nodebuilder/p2p"
+	"github.com/furyaxyz/elysium-node/header"
+	modfraud "github.com/furyaxyz/elysium-node/nodebuilder/fraud"
+	"github.com/furyaxyz/elysium-node/nodebuilder/node"
+	modp2p "github.com/furyaxyz/elysium-node/nodebuilder/p2p"
 )
 
 var log = logging.Logger("module/header")

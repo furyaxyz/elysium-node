@@ -7,11 +7,11 @@ import (
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/elysiumorg/nmt/namespace"
-	"github.com/elysiumorg/rsmt2d"
+	"github.com/furyaxyz/nmt/namespace"
+	"github.com/furyaxyz/rsmt2d"
 
-	"github.com/elysiumorg/elysium-node/libs/utils"
-	"github.com/elysiumorg/elysium-node/share"
+	"github.com/furyaxyz/elysium-node/libs/utils"
+	"github.com/furyaxyz/elysium-node/share"
 )
 
 var _ share.Getter = (*CascadeGetter)(nil)

@@ -12,8 +12,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/tendermint/tendermint/types"
 
-	"github.com/elysiumorg/elysium-node/header"
-	"github.com/elysiumorg/elysium-node/share/p2p/shrexsub"
+	"github.com/furyaxyz/elysium-node/header"
+	"github.com/furyaxyz/elysium-node/share/p2p/shrexsub"
 )
 
 func TestCoordinator(t *testing.T) {

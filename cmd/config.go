@@ -4,7 +4,7 @@ import (
 	"github.com/spf13/cobra"
 	flag "github.com/spf13/pflag"
 
-	"github.com/elysiumorg/elysium-node/nodebuilder"
+	"github.com/furyaxyz/elysium-node/nodebuilder"
 )
 
 func RemoveConfigCmd(fsets ...*flag.FlagSet) *cobra.Command {

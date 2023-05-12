@@ -9,7 +9,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/types"
 	"github.com/gorilla/mux"
 
-	"github.com/elysiumorg/elysium-node/state"
+	"github.com/furyaxyz/elysium-node/state"
 )
 
 const (

@@ -7,11 +7,11 @@ import (
 	dssync "github.com/ipfs/go-datastore/sync"
 	mdutils "github.com/ipfs/go-merkledag/test"
 
-	"github.com/elysiumorg/elysium-node/share"
-	"github.com/elysiumorg/elysium-node/share/availability/full"
-	"github.com/elysiumorg/elysium-node/share/availability/light"
-	availability_test "github.com/elysiumorg/elysium-node/share/availability/test"
-	"github.com/elysiumorg/elysium-node/share/getters"
+	"github.com/furyaxyz/elysium-node/share"
+	"github.com/furyaxyz/elysium-node/share/availability/full"
+	"github.com/furyaxyz/elysium-node/share/availability/light"
+	availability_test "github.com/furyaxyz/elysium-node/share/availability/test"
+	"github.com/furyaxyz/elysium-node/share/getters"
 )
 
 // LightAvailabilityWithLocalRandSquare wraps light.GetterWithRandSquare with cache availability

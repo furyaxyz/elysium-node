@@ -3,7 +3,7 @@ package swamp
 import (
 	"time"
 
-	"github.com/elysiumorg/elysium-node/core"
+	"github.com/furyaxyz/elysium-node/core"
 )
 
 // Config struct represents a set of pre-requisite attributes from the test scenario

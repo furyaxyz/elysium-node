@@ -11,16 +11,16 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/elysiumorg/elysium-app/pkg/da"
-	"github.com/elysiumorg/elysium-app/pkg/wrapper"
-	"github.com/elysiumorg/nmt"
-	"github.com/elysiumorg/rsmt2d"
+	"github.com/furyaxyz/elysium-app/pkg/da"
+	"github.com/furyaxyz/elysium-app/pkg/wrapper"
+	"github.com/furyaxyz/nmt"
+	"github.com/furyaxyz/rsmt2d"
 
-	"github.com/elysiumorg/elysium-node/header"
-	"github.com/elysiumorg/elysium-node/header/headertest"
-	"github.com/elysiumorg/elysium-node/share"
-	"github.com/elysiumorg/elysium-node/share/eds/byzantine"
-	"github.com/elysiumorg/elysium-node/share/ipld"
+	"github.com/furyaxyz/elysium-node/header"
+	"github.com/furyaxyz/elysium-node/header/headertest"
+	"github.com/furyaxyz/elysium-node/share"
+	"github.com/furyaxyz/elysium-node/share/eds/byzantine"
+	"github.com/furyaxyz/elysium-node/share/ipld"
 )
 
 func TestRetriever_Retrieve(t *testing.T) {

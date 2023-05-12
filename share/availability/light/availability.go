@@ -8,8 +8,8 @@ import (
 	ipldFormat "github.com/ipfs/go-ipld-format"
 	logging "github.com/ipfs/go-log/v2"
 
-	"github.com/elysiumorg/elysium-node/share"
-	"github.com/elysiumorg/elysium-node/share/getters"
+	"github.com/furyaxyz/elysium-node/share"
+	"github.com/furyaxyz/elysium-node/share/getters"
 )
 
 var log = logging.Logger("share/light")

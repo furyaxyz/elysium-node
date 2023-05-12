@@ -1,13 +1,13 @@
 package nodebuilder
 
 import (
-	"github.com/elysiumorg/elysium-node/nodebuilder/das"
-	"github.com/elysiumorg/elysium-node/nodebuilder/fraud"
-	"github.com/elysiumorg/elysium-node/nodebuilder/header"
-	"github.com/elysiumorg/elysium-node/nodebuilder/node"
-	"github.com/elysiumorg/elysium-node/nodebuilder/p2p"
-	"github.com/elysiumorg/elysium-node/nodebuilder/share"
-	"github.com/elysiumorg/elysium-node/nodebuilder/state"
+	"github.com/furyaxyz/elysium-node/nodebuilder/das"
+	"github.com/furyaxyz/elysium-node/nodebuilder/fraud"
+	"github.com/furyaxyz/elysium-node/nodebuilder/header"
+	"github.com/furyaxyz/elysium-node/nodebuilder/node"
+	"github.com/furyaxyz/elysium-node/nodebuilder/p2p"
+	"github.com/furyaxyz/elysium-node/nodebuilder/share"
+	"github.com/furyaxyz/elysium-node/nodebuilder/state"
 )
 
 // PackageToAPI maps a package to its API struct. Currently only used for

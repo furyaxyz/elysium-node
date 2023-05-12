@@ -10,9 +10,9 @@ import (
 	"github.com/ipfs/go-datastore/namespace"
 	logging "github.com/ipfs/go-log/v2"
 
-	"github.com/elysiumorg/elysium-app/pkg/da"
+	"github.com/furyaxyz/elysium-app/pkg/da"
 
-	"github.com/elysiumorg/elysium-node/share"
+	"github.com/furyaxyz/elysium-node/share"
 )
 
 var (

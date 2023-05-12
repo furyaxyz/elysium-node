@@ -5,10 +5,10 @@ import (
 	"sync"
 	"time"
 
-	libhead "github.com/elysiumorg/go-header"
+	libhead "github.com/furyaxyz/go-header"
 
-	"github.com/elysiumorg/elysium-node/header"
-	"github.com/elysiumorg/elysium-node/share/p2p/shrexsub"
+	"github.com/furyaxyz/elysium-node/header"
+	"github.com/furyaxyz/elysium-node/share/p2p/shrexsub"
 )
 
 // samplingCoordinator runs and coordinates sampling workers and updates current sampling state

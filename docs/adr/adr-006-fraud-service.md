@@ -26,26 +26,26 @@
 
 ## Context
 
-In the case where a Full Node receives `ErrByzantineData` from the [rsmt2d](https://github.com/elysiumorg/rsmt2d) library, it generates a fraud-proof and broadcasts it to DA network such that the light nodes are notified that the corresponding block could be malicious.
+In the case where a Full Node receives `ErrByzantineData` from the [rsmt2d](https://github.com/furyaxyz/rsmt2d) library, it generates a fraud-proof and broadcasts it to DA network such that the light nodes are notified that the corresponding block could be malicious.
 
 ## Decision
 
 BEFPs were first addressed in the two issues below:
 
-- <https://github.com/elysiumorg/elysium-node/issues/4>
-- <https://github.com/elysiumorg/elysium-node/issues/263>
+- <https://github.com/furyaxyz/elysium-node/issues/4>
+- <https://github.com/furyaxyz/elysium-node/issues/263>
 
 ## Detailed Design
 
 A fraud proof is generated if recovered data does not match with its respective row/column roots during block reparation.
 
-The result of `RepairExtendedDataSquare` will be an error [`ErrByzantineRow`](https://github.com/elysiumorg/rsmt2d/blob/f34ec414859fc834835ea97ed54300404eec1ac5/extendeddatacrossword.go#L18-L22)/[`ErrByzantineCol`](https://github.com/elysiumorg/rsmt2d/blob/f34ec414859fc834835ea97ed54300404eec1ac5/extendeddatacrossword.go#L28-L32):
+The result of `RepairExtendedDataSquare` will be an error [`ErrByzantineRow`](https://github.com/furyaxyz/rsmt2d/blob/f34ec414859fc834835ea97ed54300404eec1ac5/extendeddatacrossword.go#L18-L22)/[`ErrByzantineCol`](https://github.com/furyaxyz/rsmt2d/blob/f34ec414859fc834835ea97ed54300404eec1ac5/extendeddatacrossword.go#L28-L32):
 
 - Both errors consist of
   - row/column numbers that do not match with the Merkle root
   - shares that were successfully repaired and verified (all correct shares).
 
-Based on `ErrByzantineRow`/`ErrByzantineCol` internal fields, we should generate [MerkleProof](https://github.com/elysiumorg/nmt/blob/e381b44f223e9ac570a8d59bbbdbb2d5a5f1ad5f/proof.go#L17) for respective verified shares from [nmt](https://github.com/elysiumorg/nmt) tree return as the `ErrByzantine` from `RetrieveData`.
+Based on `ErrByzantineRow`/`ErrByzantineCol` internal fields, we should generate [MerkleProof](https://github.com/furyaxyz/nmt/blob/e381b44f223e9ac570a8d59bbbdbb2d5a5f1ad5f/proof.go#L17) for respective verified shares from [nmt](https://github.com/furyaxyz/nmt) tree return as the `ErrByzantine` from `RetrieveData`.
 
 ```go
 type ErrByzantine struct {
@@ -190,7 +190,7 @@ In addition, `das.Daser`:
     Once a light node receives a `BadEncodingProof` fraud proof, it should:
 
     - verify that Merkle proofs correspond to particular shares. If the Merkle proof does not correspond to a share, then the BEFP is not valid.
-    - using `BadEncodingProof.Shares`, light node should re-construct full row or column, compute its Merkle root as in [rsmt2d](https://github.com/elysiumorg/rsmt2d/blob/ac0f1e1a51bf7b5420965fb7c35fa32a56e02292/extendeddatacrossword.go#L410) and compare it with Merkle root that could be retrieved from the `DataAvailabilityHeader` inside the `ExtendedHeader`. If Merkle roots match, then the BEFP is not valid.
+    - using `BadEncodingProof.Shares`, light node should re-construct full row or column, compute its Merkle root as in [rsmt2d](https://github.com/furyaxyz/rsmt2d/blob/ac0f1e1a51bf7b5420965fb7c35fa32a56e02292/extendeddatacrossword.go#L410) and compare it with Merkle root that could be retrieved from the `DataAvailabilityHeader` inside the `ExtendedHeader`. If Merkle roots match, then the BEFP is not valid.
 
 1. All elysium-nodes should stop some dependent services upon receiving a legitimate BEFP:
 Both full and light nodes should stop `DAS`, `Syncer` and `SubmitTx` services.
@@ -236,6 +236,6 @@ Proposed
 
 ## References
 
-Data Availability(Bad Encoding) Fraud Proofs: [#4](https://github.com/elysiumorg/elysium-node/issues/4)
+Data Availability(Bad Encoding) Fraud Proofs: [#4](https://github.com/furyaxyz/elysium-node/issues/4)
 
-Implement stubs for BadEncodingFraudProofs: [#263](https://github.com/elysiumorg/elysium-node/issues/263)
+Implement stubs for BadEncodingFraudProofs: [#263](https://github.com/furyaxyz/elysium-node/issues/263)

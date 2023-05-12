@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/elysiumorg/elysium-node/libs/utils"
+	"github.com/furyaxyz/elysium-node/libs/utils"
 )
 
 // Config combines all configuration fields for managing the relationship with a Core node.

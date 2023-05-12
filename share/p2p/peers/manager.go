@@ -15,12 +15,12 @@ import (
 	"github.com/libp2p/go-libp2p/core/peer"
 	"github.com/libp2p/go-libp2p/p2p/net/conngater"
 
-	libhead "github.com/elysiumorg/go-header"
+	libhead "github.com/furyaxyz/go-header"
 
-	"github.com/elysiumorg/elysium-node/header"
-	"github.com/elysiumorg/elysium-node/share"
-	"github.com/elysiumorg/elysium-node/share/availability/discovery"
-	"github.com/elysiumorg/elysium-node/share/p2p/shrexsub"
+	"github.com/furyaxyz/elysium-node/header"
+	"github.com/furyaxyz/elysium-node/share"
+	"github.com/furyaxyz/elysium-node/share/availability/discovery"
+	"github.com/furyaxyz/elysium-node/share/p2p/shrexsub"
 )
 
 const (

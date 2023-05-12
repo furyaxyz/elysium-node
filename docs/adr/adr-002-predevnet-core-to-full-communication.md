@@ -10,9 +10,9 @@
 
 ## Legend
 
-**Elysium Core** = tendermint consensus node that lives in [the elysium-core repository](https://github.com/elysiumorg/elysium-core).
+**Elysium Core** = tendermint consensus node that lives in [the elysium-core repository](https://github.com/furyaxyz/elysium-core).
 
-**Elysium Node** = elysium `full` or `light` nodes that live in [this repository](https://github.com/elysiumorg/elysium-node).
+**Elysium Node** = elysium `full` or `light` nodes that live in [this repository](https://github.com/furyaxyz/elysium-node).
 
 ## Context
 

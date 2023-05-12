@@ -1,20 +1,20 @@
-module github.com/elysiumorg/elysium-node
+module github.com/furyaxyz/elysium-node
 
 go 1.20
 
-replace github.com/ipfs/go-verifcid => github.com/elysiumorg/go-verifcid v0.0.1-lazypatch
+replace github.com/ipfs/go-verifcid => github.com/furyaxyz/go-verifcid v0.0.1-lazypatch
 
 require (
 	cosmossdk.io/math v1.0.0-beta.3
 	github.com/BurntSushi/toml v1.2.1
 	github.com/alecthomas/jsonschema v0.0.0-20200530073317-71f438968921
 	github.com/benbjohnson/clock v1.3.0
-	github.com/elysiumorg/elysium-app v0.13.0
-	github.com/elysiumorg/go-fraud v0.1.0
-	github.com/elysiumorg/go-header v0.2.7
-	github.com/elysiumorg/go-libp2p-messenger v0.2.0
-	github.com/elysiumorg/nmt v0.15.0
-	github.com/elysiumorg/rsmt2d v0.8.0
+	github.com/furyaxyz/elysium-app v0.13.0
+	github.com/furyaxyz/go-fraud v0.1.0
+	github.com/furyaxyz/go-header v0.2.7
+	github.com/furyaxyz/go-libp2p-messenger v0.2.0
+	github.com/furyaxyz/nmt v0.15.0
+	github.com/furyaxyz/rsmt2d v0.8.0
 	github.com/cosmos/cosmos-sdk v0.46.7
 	github.com/cosmos/cosmos-sdk/api v0.1.0
 	github.com/cristalhq/jwt v1.2.0
@@ -101,8 +101,8 @@ require (
 	github.com/bgentry/speakeasy v0.1.0 // indirect
 	github.com/btcsuite/btcd v0.22.1 // indirect
 	github.com/btcsuite/btcd/btcec/v2 v2.3.2 // indirect
-	github.com/elysiumorg/merkletree v0.0.0-20210714075610-a84dc3ddbbe4 // indirect
-	github.com/elysiumorg/quantum-gravity-bridge v1.3.0 // indirect
+	github.com/furyaxyz/merkletree v0.0.0-20210714075610-a84dc3ddbbe4 // indirect
+	github.com/furyaxyz/quantum-gravity-bridge v1.3.0 // indirect
 	github.com/cenkalti/backoff/v4 v4.2.0 // indirect
 	github.com/cespare/xxhash v1.1.0 // indirect
 	github.com/cespare/xxhash/v2 v2.2.0 // indirect
@@ -328,8 +328,8 @@ require (
 )
 
 replace (
-	github.com/cosmos/cosmos-sdk => github.com/elysiumorg/cosmos-sdk v1.8.0-sdk-v0.46.7
-	github.com/filecoin-project/dagstore => github.com/elysiumorg/dagstore v0.0.0-20230413141458-735ab09a15d6
+	github.com/cosmos/cosmos-sdk => github.com/furyaxyz/cosmos-sdk v1.8.0-sdk-v0.46.7
+	github.com/filecoin-project/dagstore => github.com/furyaxyz/dagstore v0.0.0-20230413141458-735ab09a15d6
 	github.com/gogo/protobuf => github.com/regen-network/protobuf v1.3.3-alpha.regen.1
-	github.com/tendermint/tendermint => github.com/elysiumorg/elysium-core v1.15.0-tm-v0.34.23
+	github.com/tendermint/tendermint => github.com/furyaxyz/elysium-core v1.15.0-tm-v0.34.23
 )

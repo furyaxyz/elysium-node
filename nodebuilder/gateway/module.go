@@ -6,11 +6,11 @@ import (
 	logging "github.com/ipfs/go-log/v2"
 	"go.uber.org/fx"
 
-	"github.com/elysiumorg/elysium-node/api/gateway"
-	headerServ "github.com/elysiumorg/elysium-node/nodebuilder/header"
-	"github.com/elysiumorg/elysium-node/nodebuilder/node"
-	shareServ "github.com/elysiumorg/elysium-node/nodebuilder/share"
-	stateServ "github.com/elysiumorg/elysium-node/nodebuilder/state"
+	"github.com/furyaxyz/elysium-node/api/gateway"
+	headerServ "github.com/furyaxyz/elysium-node/nodebuilder/header"
+	"github.com/furyaxyz/elysium-node/nodebuilder/node"
+	shareServ "github.com/furyaxyz/elysium-node/nodebuilder/share"
+	stateServ "github.com/furyaxyz/elysium-node/nodebuilder/state"
 )
 
 var log = logging.Logger("module/gateway")

@@ -10,13 +10,13 @@ import (
 // NOTE: Every time we add a new long-running network, it has to be added here.
 const (
 	// DefaultNetwork is the default network of the current build.
-	DefaultNetwork = Mocha
-	// Arabica testnet. See: elysiumorg/networks.
-	Arabica Network = "arabica-6"
-	// Mocha testnet. See: elysiumorg/networks.
-	Mocha Network = "mocha"
-	// BlockspaceRace testnet. See: https://docs.elysium.org/nodes/blockspace-race/.
-	BlockspaceRace Network = "blockspacerace-0"
+	DefaultNetwork = Thebaid
+	// Aeneid testnet. See: furyaxyz/networks.
+	Aeneid Network = "aeneid-6"
+	// Thebaid testnet. See: furyaxyz/networks.
+	Thebaid Network = "thebaid"
+	// Okeanus testnet. See: https://docs.elysium.org/nodes/blockspace-race/.
+	Okeanus Network = "okeanus-0"
 	// Private can be used to set up any private network, including local testing setups.
 	Private Network = "private"
 	// BlockTime is a network block time.
@@ -52,9 +52,9 @@ func (n Network) String() string {
 
 // networksList is a strict list of all known long-standing networks.
 var networksList = map[Network]struct{}{
-	Arabica:        {},
-	Mocha:          {},
-	BlockspaceRace: {},
+	Aeneid:        {},
+	Thebaid:          {},
+	Okeanus: {},
 	Private:        {},
 }
 
@@ -62,9 +62,9 @@ var networksList = map[Network]struct{}{
 // mapped from the string representation of their *alias* (rather than
 // their actual value) to the Network.
 var networkAliases = map[string]Network{
-	"arabica":        Arabica,
-	"mocha":          Mocha,
-	"blockspacerace": BlockspaceRace,
+	"aeneid":        Aeneid,
+	"thebaid":          Thebaid,
+	"okeanus": Okeanus,
 	"private":        Private,
 }
 

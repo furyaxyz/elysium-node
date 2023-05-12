@@ -6,8 +6,8 @@ import (
 
 	"go.opentelemetry.io/otel"
 
-	"github.com/elysiumorg/elysium-app/pkg/appconsts"
-	"github.com/elysiumorg/nmt/namespace"
+	"github.com/furyaxyz/elysium-app/pkg/appconsts"
+	"github.com/furyaxyz/nmt/namespace"
 )
 
 var (

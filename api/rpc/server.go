@@ -14,7 +14,7 @@ import (
 	"github.com/filecoin-project/go-jsonrpc/auth"
 	logging "github.com/ipfs/go-log/v2"
 
-	"github.com/elysiumorg/elysium-node/api/rpc/perms"
+	"github.com/furyaxyz/elysium-node/api/rpc/perms"
 )
 
 var log = logging.Logger("rpc")

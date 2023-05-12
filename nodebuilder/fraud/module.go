@@ -4,9 +4,9 @@ import (
 	logging "github.com/ipfs/go-log/v2"
 	"go.uber.org/fx"
 
-	"github.com/elysiumorg/go-fraud"
+	"github.com/furyaxyz/go-fraud"
 
-	"github.com/elysiumorg/elysium-node/nodebuilder/node"
+	"github.com/furyaxyz/elysium-node/nodebuilder/node"
 )
 
 var log = logging.Logger("module/fraud")

@@ -6,7 +6,7 @@ import (
 
 	"github.com/cristalhq/jwt"
 
-	"github.com/elysiumorg/elysium-node/libs/keystore"
+	"github.com/furyaxyz/elysium-node/libs/keystore"
 )
 
 var SecretName = keystore.KeyName("jwt-secret.jwt")

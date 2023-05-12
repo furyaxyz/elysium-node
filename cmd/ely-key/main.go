@@ -12,8 +12,8 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/auth/types"
 	"github.com/spf13/cobra"
 
-	"github.com/elysiumorg/elysium-app/app"
-	"github.com/elysiumorg/elysium-app/app/encoding"
+	"github.com/furyaxyz/elysium-app/app"
+	"github.com/furyaxyz/elysium-app/app/encoding"
 )
 
 var encodingConfig = encoding.MakeConfig(app.ModuleEncodingRegisters...)

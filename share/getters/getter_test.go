@@ -13,12 +13,12 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/elysiumorg/elysium-app/pkg/da"
-	"github.com/elysiumorg/elysium-app/pkg/wrapper"
-	"github.com/elysiumorg/rsmt2d"
+	"github.com/furyaxyz/elysium-app/pkg/da"
+	"github.com/furyaxyz/elysium-app/pkg/wrapper"
+	"github.com/furyaxyz/rsmt2d"
 
-	"github.com/elysiumorg/elysium-node/share"
-	"github.com/elysiumorg/elysium-node/share/eds"
+	"github.com/furyaxyz/elysium-node/share"
+	"github.com/furyaxyz/elysium-node/share/eds"
 )
 
 func TestTeeGetter(t *testing.T) {

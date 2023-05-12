@@ -8,7 +8,7 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/elysiumorg/elysium-node/nodebuilder/state"
+	"github.com/furyaxyz/elysium-node/nodebuilder/state"
 )
 
 const timeout = time.Minute

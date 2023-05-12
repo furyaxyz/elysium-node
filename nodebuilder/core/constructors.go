@@ -1,7 +1,7 @@
 package core
 
 import (
-	"github.com/elysiumorg/elysium-node/core"
+	"github.com/furyaxyz/elysium-node/core"
 )
 
 func remote(cfg Config) (core.Client, error) {

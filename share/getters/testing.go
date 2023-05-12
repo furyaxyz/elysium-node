@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/elysiumorg/elysium-app/pkg/da"
-	"github.com/elysiumorg/nmt/namespace"
-	"github.com/elysiumorg/rsmt2d"
+	"github.com/furyaxyz/elysium-app/pkg/da"
+	"github.com/furyaxyz/nmt/namespace"
+	"github.com/furyaxyz/rsmt2d"
 
-	"github.com/elysiumorg/elysium-node/share"
+	"github.com/furyaxyz/elysium-node/share"
 )
 
 // TestGetter provides a testing SingleEDSGetter and the root of the EDS it holds.

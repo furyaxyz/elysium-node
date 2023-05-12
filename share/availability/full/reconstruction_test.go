@@ -11,10 +11,10 @@ import (
 	"github.com/stretchr/testify/require"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/elysiumorg/elysium-node/share"
-	"github.com/elysiumorg/elysium-node/share/availability/light"
-	availability_test "github.com/elysiumorg/elysium-node/share/availability/test"
-	"github.com/elysiumorg/elysium-node/share/eds"
+	"github.com/furyaxyz/elysium-node/share"
+	"github.com/furyaxyz/elysium-node/share/availability/light"
+	availability_test "github.com/furyaxyz/elysium-node/share/availability/test"
+	"github.com/furyaxyz/elysium-node/share/eds"
 )
 
 func init() {

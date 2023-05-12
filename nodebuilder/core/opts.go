@@ -3,9 +3,9 @@ package core
 import (
 	"go.uber.org/fx"
 
-	"github.com/elysiumorg/elysium-node/core"
-	"github.com/elysiumorg/elysium-node/header"
-	"github.com/elysiumorg/elysium-node/libs/fxutil"
+	"github.com/furyaxyz/elysium-node/core"
+	"github.com/furyaxyz/elysium-node/header"
+	"github.com/furyaxyz/elysium-node/libs/fxutil"
 )
 
 // WithClient sets custom client for core process

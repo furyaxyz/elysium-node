@@ -6,7 +6,7 @@ import (
 
 	"github.com/cosmos/cosmos-sdk/client/flags"
 
-	"github.com/elysiumorg/elysium-app/testutil/testnode"
+	"github.com/furyaxyz/elysium-app/testutil/testnode"
 )
 
 // FillBlocks produces the given amount of contiguous blocks with customizable size.

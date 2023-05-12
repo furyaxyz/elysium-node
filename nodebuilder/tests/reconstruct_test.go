@@ -17,12 +17,12 @@ import (
 	"github.com/stretchr/testify/require"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/elysiumorg/elysium-node/nodebuilder"
-	"github.com/elysiumorg/elysium-node/nodebuilder/node"
-	"github.com/elysiumorg/elysium-node/nodebuilder/p2p"
-	"github.com/elysiumorg/elysium-node/nodebuilder/tests/swamp"
-	"github.com/elysiumorg/elysium-node/share/availability/light"
-	"github.com/elysiumorg/elysium-node/share/eds"
+	"github.com/furyaxyz/elysium-node/nodebuilder"
+	"github.com/furyaxyz/elysium-node/nodebuilder/node"
+	"github.com/furyaxyz/elysium-node/nodebuilder/p2p"
+	"github.com/furyaxyz/elysium-node/nodebuilder/tests/swamp"
+	"github.com/furyaxyz/elysium-node/share/availability/light"
+	"github.com/furyaxyz/elysium-node/share/eds"
 )
 
 /*

@@ -3,10 +3,10 @@ package share
 import (
 	"context"
 
-	"github.com/elysiumorg/nmt/namespace"
-	"github.com/elysiumorg/rsmt2d"
+	"github.com/furyaxyz/nmt/namespace"
+	"github.com/furyaxyz/rsmt2d"
 
-	"github.com/elysiumorg/elysium-node/share"
+	"github.com/furyaxyz/elysium-node/share"
 )
 
 var _ Module = (*API)(nil)

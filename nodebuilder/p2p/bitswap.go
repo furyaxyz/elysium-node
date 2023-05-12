@@ -14,7 +14,7 @@ import (
 	"github.com/libp2p/go-libp2p/core/protocol"
 	"go.uber.org/fx"
 
-	"github.com/elysiumorg/elysium-node/share/eds"
+	"github.com/furyaxyz/elysium-node/share/eds"
 )
 
 const (
@@ -35,7 +35,7 @@ func dataExchange(params bitSwapParams) exchange.Interface {
 		params.Bs,
 		bitswap.ProvideEnabled(false),
 		// NOTE: These below ar required for our protocol to work reliably.
-		// See https://github.com/elysiumorg/elysium-node/issues/732
+		// See https://github.com/furyaxyz/elysium-node/issues/732
 		bitswap.SetSendDontHaves(false),
 		bitswap.SetSimulateDontHavesOnTimeout(false),
 	)

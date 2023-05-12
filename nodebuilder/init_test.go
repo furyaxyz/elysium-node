@@ -10,11 +10,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/elysiumorg/elysium-app/app"
-	"github.com/elysiumorg/elysium-app/app/encoding"
+	"github.com/furyaxyz/elysium-app/app"
+	"github.com/furyaxyz/elysium-app/app/encoding"
 
-	"github.com/elysiumorg/elysium-node/libs/fslock"
-	"github.com/elysiumorg/elysium-node/nodebuilder/node"
+	"github.com/furyaxyz/elysium-node/libs/fslock"
+	"github.com/furyaxyz/elysium-node/nodebuilder/node"
 )
 
 func TestInit(t *testing.T) {

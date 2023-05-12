@@ -7,7 +7,7 @@ import (
 	"github.com/libp2p/go-libp2p/core/peer"
 	ma "github.com/multiformats/go-multiaddr"
 
-	"github.com/elysiumorg/elysium-node/nodebuilder/node"
+	"github.com/furyaxyz/elysium-node/nodebuilder/node"
 )
 
 const defaultRoutingRefreshPeriod = time.Minute

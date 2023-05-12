@@ -13,8 +13,8 @@ import (
 	collectormetricpb "go.opentelemetry.io/proto/otlp/collector/metrics/v1"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/elysiumorg/elysium-node/nodebuilder/node"
-	"github.com/elysiumorg/elysium-node/share"
+	"github.com/furyaxyz/elysium-node/nodebuilder/node"
+	"github.com/furyaxyz/elysium-node/share"
 )
 
 func TestLifecycle(t *testing.T) {

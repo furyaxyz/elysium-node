@@ -8,10 +8,10 @@ import (
 
 	"golang.org/x/sync/errgroup"
 
-	libhead "github.com/elysiumorg/go-header"
+	libhead "github.com/furyaxyz/go-header"
 
-	"github.com/elysiumorg/elysium-node/header"
-	"github.com/elysiumorg/elysium-node/share/eds"
+	"github.com/furyaxyz/elysium-node/header"
+	"github.com/furyaxyz/elysium-node/share/eds"
 )
 
 const concurrencyLimit = 4

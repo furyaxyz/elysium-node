@@ -11,7 +11,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	ipld2 "github.com/elysiumorg/elysium-node/share/ipld"
+	ipld2 "github.com/furyaxyz/elysium-node/share/ipld"
 )
 
 // TestBlockstore_Operations tests Has, Get, and GetSize on the top level eds.Store blockstore.

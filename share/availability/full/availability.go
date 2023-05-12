@@ -7,10 +7,10 @@ import (
 	ipldFormat "github.com/ipfs/go-ipld-format"
 	logging "github.com/ipfs/go-log/v2"
 
-	"github.com/elysiumorg/elysium-node/share"
-	"github.com/elysiumorg/elysium-node/share/availability/discovery"
-	"github.com/elysiumorg/elysium-node/share/eds"
-	"github.com/elysiumorg/elysium-node/share/eds/byzantine"
+	"github.com/furyaxyz/elysium-node/share"
+	"github.com/furyaxyz/elysium-node/share/availability/discovery"
+	"github.com/furyaxyz/elysium-node/share/eds"
+	"github.com/furyaxyz/elysium-node/share/eds/byzantine"
 )
 
 var log = logging.Logger("share/full")

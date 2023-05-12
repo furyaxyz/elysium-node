@@ -7,10 +7,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/elysiumorg/elysium-node/share"
-	"github.com/elysiumorg/elysium-node/share/availability/full"
-	availability_test "github.com/elysiumorg/elysium-node/share/availability/test"
-	"github.com/elysiumorg/elysium-node/share/getters"
+	"github.com/furyaxyz/elysium-node/share"
+	"github.com/furyaxyz/elysium-node/share/availability/full"
+	availability_test "github.com/furyaxyz/elysium-node/share/availability/test"
+	"github.com/furyaxyz/elysium-node/share/getters"
 )
 
 // sharesAvailableTimeout is an arbitrarily picked interval of time in which a TestNode is expected

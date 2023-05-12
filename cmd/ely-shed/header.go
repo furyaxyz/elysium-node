@@ -7,11 +7,11 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/elysiumorg/go-header/store"
+	"github.com/furyaxyz/go-header/store"
 
-	"github.com/elysiumorg/elysium-node/header"
-	"github.com/elysiumorg/elysium-node/nodebuilder"
-	"github.com/elysiumorg/elysium-node/nodebuilder/node"
+	"github.com/furyaxyz/elysium-node/header"
+	"github.com/furyaxyz/elysium-node/nodebuilder"
+	"github.com/furyaxyz/elysium-node/nodebuilder/node"
 )
 
 func init() {

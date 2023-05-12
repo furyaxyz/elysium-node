@@ -19,7 +19,7 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"go.uber.org/fx"
 
-	"github.com/elysiumorg/elysium-node/nodebuilder/node"
+	"github.com/furyaxyz/elysium-node/nodebuilder/node"
 )
 
 // routedHost constructs a wrapped Host that may fallback to address discovery,

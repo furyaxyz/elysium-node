@@ -12,12 +12,12 @@ import (
 	"github.com/libp2p/go-libp2p/core/protocol"
 	"go.uber.org/zap"
 
-	"github.com/elysiumorg/go-libp2p-messenger/serde"
+	"github.com/furyaxyz/go-libp2p-messenger/serde"
 
-	"github.com/elysiumorg/elysium-node/share"
-	"github.com/elysiumorg/elysium-node/share/eds"
-	"github.com/elysiumorg/elysium-node/share/p2p"
-	p2p_pb "github.com/elysiumorg/elysium-node/share/p2p/shrexeds/pb"
+	"github.com/furyaxyz/elysium-node/share"
+	"github.com/furyaxyz/elysium-node/share/eds"
+	"github.com/furyaxyz/elysium-node/share/p2p"
+	p2p_pb "github.com/furyaxyz/elysium-node/share/p2p/shrexeds/pb"
 )
 
 // Server is responsible for serving ODSs for blocksync over the ShrEx/EDS protocol.

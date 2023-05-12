@@ -10,10 +10,10 @@ import (
 	mdutils "github.com/ipfs/go-merkledag/test"
 	"github.com/stretchr/testify/require"
 
-	"github.com/elysiumorg/elysium-app/pkg/da"
+	"github.com/furyaxyz/elysium-app/pkg/da"
 
-	"github.com/elysiumorg/elysium-node/share"
-	"github.com/elysiumorg/elysium-node/share/ipld"
+	"github.com/furyaxyz/elysium-node/share"
+	"github.com/furyaxyz/elysium-node/share/ipld"
 )
 
 func TestGetProof(t *testing.T) {

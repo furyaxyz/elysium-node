@@ -6,12 +6,12 @@ import (
 
 	"github.com/ipfs/go-blockservice"
 
-	"github.com/elysiumorg/elysium-app/pkg/wrapper"
-	"github.com/elysiumorg/nmt"
-	"github.com/elysiumorg/rsmt2d"
+	"github.com/furyaxyz/elysium-app/pkg/wrapper"
+	"github.com/furyaxyz/nmt"
+	"github.com/furyaxyz/rsmt2d"
 
-	"github.com/elysiumorg/elysium-node/libs/utils"
-	"github.com/elysiumorg/elysium-node/share/ipld"
+	"github.com/furyaxyz/elysium-node/libs/utils"
+	"github.com/furyaxyz/elysium-node/share/ipld"
 )
 
 // AddShares erasures and extends shares to blockservice.BlockService using the provided

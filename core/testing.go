@@ -12,7 +12,7 @@ import (
 	tmrand "github.com/tendermint/tendermint/libs/rand"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	"github.com/elysiumorg/elysium-app/testutil/testnode"
+	"github.com/furyaxyz/elysium-app/testutil/testnode"
 )
 
 // TestConfig encompasses all the configs required to run test Tendermint + Elysium App tandem.

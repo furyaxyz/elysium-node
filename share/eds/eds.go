@@ -18,15 +18,15 @@ import (
 	"github.com/ipld/go-car/util"
 	"github.com/minio/sha256-simd"
 
-	"github.com/elysiumorg/elysium-app/pkg/appconsts"
-	"github.com/elysiumorg/elysium-app/pkg/da"
-	"github.com/elysiumorg/elysium-app/pkg/wrapper"
-	"github.com/elysiumorg/nmt"
-	"github.com/elysiumorg/rsmt2d"
+	"github.com/furyaxyz/elysium-app/pkg/appconsts"
+	"github.com/furyaxyz/elysium-app/pkg/da"
+	"github.com/furyaxyz/elysium-app/pkg/wrapper"
+	"github.com/furyaxyz/nmt"
+	"github.com/furyaxyz/rsmt2d"
 
-	"github.com/elysiumorg/elysium-node/libs/utils"
-	"github.com/elysiumorg/elysium-node/share"
-	"github.com/elysiumorg/elysium-node/share/ipld"
+	"github.com/furyaxyz/elysium-node/libs/utils"
+	"github.com/furyaxyz/elysium-node/share"
+	"github.com/furyaxyz/elysium-node/share/ipld"
 )
 
 var ErrEmptySquare = errors.New("share: importing empty data")

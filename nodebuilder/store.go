@@ -12,8 +12,8 @@ import (
 	dsbadger "github.com/ipfs/go-ds-badger2"
 	"github.com/mitchellh/go-homedir"
 
-	"github.com/elysiumorg/elysium-node/libs/fslock"
-	"github.com/elysiumorg/elysium-node/libs/keystore"
+	"github.com/furyaxyz/elysium-node/libs/fslock"
+	"github.com/furyaxyz/elysium-node/libs/keystore"
 )
 
 var (

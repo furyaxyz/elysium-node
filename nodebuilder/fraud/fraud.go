@@ -3,7 +3,7 @@ package fraud
 import (
 	"context"
 
-	"github.com/elysiumorg/go-fraud"
+	"github.com/furyaxyz/go-fraud"
 )
 
 var _ Module = (*API)(nil)

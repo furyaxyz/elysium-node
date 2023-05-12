@@ -1,7 +1,7 @@
 package das
 
 import (
-	"github.com/elysiumorg/elysium-node/das"
+	"github.com/furyaxyz/elysium-node/das"
 )
 
 // WithMetrics is a utility function that is expected to be

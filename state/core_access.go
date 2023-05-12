@@ -19,14 +19,14 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 
-	"github.com/elysiumorg/elysium-app/app"
-	"github.com/elysiumorg/elysium-app/pkg/appconsts"
-	"github.com/elysiumorg/elysium-app/x/blob"
-	apptypes "github.com/elysiumorg/elysium-app/x/blob/types"
-	libhead "github.com/elysiumorg/go-header"
-	"github.com/elysiumorg/nmt/namespace"
+	"github.com/furyaxyz/elysium-app/app"
+	"github.com/furyaxyz/elysium-app/pkg/appconsts"
+	"github.com/furyaxyz/elysium-app/x/blob"
+	apptypes "github.com/furyaxyz/elysium-app/x/blob/types"
+	libhead "github.com/furyaxyz/go-header"
+	"github.com/furyaxyz/nmt/namespace"
 
-	"github.com/elysiumorg/elysium-node/header"
+	"github.com/furyaxyz/elysium-node/header"
 )
 
 var (

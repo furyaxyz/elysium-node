@@ -7,7 +7,7 @@ import (
 	hst "github.com/libp2p/go-libp2p/core/host"
 	"go.uber.org/fx"
 
-	"github.com/elysiumorg/elysium-node/libs/fxutil"
+	"github.com/furyaxyz/elysium-node/libs/fxutil"
 )
 
 // WithP2PKey sets custom Ed25519 private key for p2p networking.

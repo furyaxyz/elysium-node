@@ -18,8 +18,8 @@ import (
 	"github.com/cosmos/cosmos-sdk/types"
 	"github.com/spf13/cobra"
 
-	"github.com/elysiumorg/elysium-node/api/rpc/client"
-	"github.com/elysiumorg/elysium-node/state"
+	"github.com/furyaxyz/elysium-node/api/rpc/client"
+	"github.com/furyaxyz/elysium-node/state"
 )
 
 const (

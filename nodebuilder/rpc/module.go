@@ -5,8 +5,8 @@ import (
 
 	"go.uber.org/fx"
 
-	"github.com/elysiumorg/elysium-node/api/rpc"
-	"github.com/elysiumorg/elysium-node/nodebuilder/node"
+	"github.com/furyaxyz/elysium-node/api/rpc"
+	"github.com/furyaxyz/elysium-node/nodebuilder/node"
 )
 
 func ConstructModule(tp node.Type, cfg *Config) fx.Option {

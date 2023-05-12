@@ -6,15 +6,15 @@ import (
 
 	"github.com/ipfs/go-datastore"
 
-	"github.com/elysiumorg/go-fraud"
-	libhead "github.com/elysiumorg/go-header"
+	"github.com/furyaxyz/go-fraud"
+	libhead "github.com/furyaxyz/go-header"
 
-	"github.com/elysiumorg/elysium-node/das"
-	"github.com/elysiumorg/elysium-node/header"
-	modfraud "github.com/elysiumorg/elysium-node/nodebuilder/fraud"
-	"github.com/elysiumorg/elysium-node/share"
-	"github.com/elysiumorg/elysium-node/share/eds/byzantine"
-	"github.com/elysiumorg/elysium-node/share/p2p/shrexsub"
+	"github.com/furyaxyz/elysium-node/das"
+	"github.com/furyaxyz/elysium-node/header"
+	modfraud "github.com/furyaxyz/elysium-node/nodebuilder/fraud"
+	"github.com/furyaxyz/elysium-node/share"
+	"github.com/furyaxyz/elysium-node/share/eds/byzantine"
+	"github.com/furyaxyz/elysium-node/share/p2p/shrexsub"
 )
 
 var _ Module = (*daserStub)(nil)

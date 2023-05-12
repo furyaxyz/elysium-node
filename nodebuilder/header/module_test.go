@@ -13,15 +13,15 @@ import (
 	"go.uber.org/fx"
 	"go.uber.org/fx/fxtest"
 
-	"github.com/elysiumorg/go-fraud"
-	libhead "github.com/elysiumorg/go-header"
-	"github.com/elysiumorg/go-header/p2p"
-	"github.com/elysiumorg/go-header/store"
-	"github.com/elysiumorg/go-header/sync"
+	"github.com/furyaxyz/go-fraud"
+	libhead "github.com/furyaxyz/go-header"
+	"github.com/furyaxyz/go-header/p2p"
+	"github.com/furyaxyz/go-header/store"
+	"github.com/furyaxyz/go-header/sync"
 
-	"github.com/elysiumorg/elysium-node/header"
-	"github.com/elysiumorg/elysium-node/nodebuilder/node"
-	modp2p "github.com/elysiumorg/elysium-node/nodebuilder/p2p"
+	"github.com/furyaxyz/elysium-node/header"
+	"github.com/furyaxyz/elysium-node/nodebuilder/node"
+	modp2p "github.com/furyaxyz/elysium-node/nodebuilder/p2p"
 )
 
 // TestConstructModule_StoreParams ensures that all passed via functional options

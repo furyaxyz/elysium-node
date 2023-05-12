@@ -13,9 +13,9 @@ import (
 	"github.com/spf13/cobra"
 	flag "github.com/spf13/pflag"
 
-	"github.com/elysiumorg/elysium-node/api/rpc/perms"
-	"github.com/elysiumorg/elysium-node/libs/keystore"
-	nodemod "github.com/elysiumorg/elysium-node/nodebuilder/node"
+	"github.com/furyaxyz/elysium-node/api/rpc/perms"
+	"github.com/furyaxyz/elysium-node/libs/keystore"
+	nodemod "github.com/furyaxyz/elysium-node/nodebuilder/node"
 )
 
 func AuthCmd(fsets ...*flag.FlagSet) *cobra.Command {

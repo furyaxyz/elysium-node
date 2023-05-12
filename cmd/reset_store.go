@@ -4,7 +4,7 @@ import (
 	"github.com/spf13/cobra"
 	flag "github.com/spf13/pflag"
 
-	"github.com/elysiumorg/elysium-node/nodebuilder"
+	"github.com/furyaxyz/elysium-node/nodebuilder"
 )
 
 // ResetStore constructs a CLI command to reset the store of Elysium Node.

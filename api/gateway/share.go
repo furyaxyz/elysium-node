@@ -10,11 +10,11 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/elysiumorg/elysium-app/pkg/shares"
-	"github.com/elysiumorg/nmt/namespace"
+	"github.com/furyaxyz/elysium-app/pkg/shares"
+	"github.com/furyaxyz/nmt/namespace"
 
-	"github.com/elysiumorg/elysium-node/header"
-	"github.com/elysiumorg/elysium-node/share"
+	"github.com/furyaxyz/elysium-node/header"
+	"github.com/furyaxyz/elysium-node/share"
 )
 
 const (

@@ -16,13 +16,13 @@ import (
 	rpcclient "github.com/tendermint/tendermint/rpc/client"
 	"google.golang.org/grpc"
 
-	"github.com/elysiumorg/elysium-app/app"
-	"github.com/elysiumorg/elysium-app/testutil/testfactory"
-	"github.com/elysiumorg/elysium-app/testutil/testnode"
-	blobtypes "github.com/elysiumorg/elysium-app/x/blob/types"
+	"github.com/furyaxyz/elysium-app/app"
+	"github.com/furyaxyz/elysium-app/testutil/testfactory"
+	"github.com/furyaxyz/elysium-app/testutil/testnode"
+	blobtypes "github.com/furyaxyz/elysium-app/x/blob/types"
 
-	"github.com/elysiumorg/elysium-node/core"
-	"github.com/elysiumorg/elysium-node/header"
+	"github.com/furyaxyz/elysium-node/core"
+	"github.com/furyaxyz/elysium-node/header"
 )
 
 func TestIntegrationTestSuite(t *testing.T) {

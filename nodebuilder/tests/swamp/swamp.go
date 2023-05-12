@@ -17,19 +17,19 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/fx"
 
-	"github.com/elysiumorg/elysium-app/testutil/testnode"
-	libhead "github.com/elysiumorg/go-header"
+	"github.com/furyaxyz/elysium-app/testutil/testnode"
+	libhead "github.com/furyaxyz/go-header"
 
-	"github.com/elysiumorg/elysium-node/core"
-	"github.com/elysiumorg/elysium-node/header"
-	"github.com/elysiumorg/elysium-node/libs/keystore"
-	"github.com/elysiumorg/elysium-node/logs"
-	"github.com/elysiumorg/elysium-node/nodebuilder"
-	coremodule "github.com/elysiumorg/elysium-node/nodebuilder/core"
-	"github.com/elysiumorg/elysium-node/nodebuilder/node"
-	"github.com/elysiumorg/elysium-node/nodebuilder/p2p"
-	"github.com/elysiumorg/elysium-node/nodebuilder/state"
-	"github.com/elysiumorg/elysium-node/share/eds"
+	"github.com/furyaxyz/elysium-node/core"
+	"github.com/furyaxyz/elysium-node/header"
+	"github.com/furyaxyz/elysium-node/libs/keystore"
+	"github.com/furyaxyz/elysium-node/logs"
+	"github.com/furyaxyz/elysium-node/nodebuilder"
+	coremodule "github.com/furyaxyz/elysium-node/nodebuilder/core"
+	"github.com/furyaxyz/elysium-node/nodebuilder/node"
+	"github.com/furyaxyz/elysium-node/nodebuilder/p2p"
+	"github.com/furyaxyz/elysium-node/nodebuilder/state"
+	"github.com/furyaxyz/elysium-node/share/eds"
 )
 
 var blackholeIP6 = net.ParseIP("100::")

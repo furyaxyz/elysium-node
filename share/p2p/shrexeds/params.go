@@ -5,7 +5,7 @@ import (
 
 	logging "github.com/ipfs/go-log/v2"
 
-	"github.com/elysiumorg/elysium-node/share/p2p"
+	"github.com/furyaxyz/elysium-node/share/p2p"
 )
 
 const protocolString = "/shrex/eds/v0.0.1"

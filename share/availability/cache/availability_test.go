@@ -13,10 +13,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/elysiumorg/elysium-app/pkg/da"
+	"github.com/furyaxyz/elysium-app/pkg/da"
 
-	"github.com/elysiumorg/elysium-node/share"
-	availability_test "github.com/elysiumorg/elysium-node/share/availability/test"
+	"github.com/furyaxyz/elysium-node/share"
+	availability_test "github.com/furyaxyz/elysium-node/share/availability/test"
 )
 
 // TestCacheAvailability tests to ensure that the successful result of a

@@ -13,12 +13,12 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/elysiumorg/go-header/p2p"
+	"github.com/furyaxyz/go-header/p2p"
 
-	"github.com/elysiumorg/elysium-node/header"
-	nodep2p "github.com/elysiumorg/elysium-node/nodebuilder/p2p"
-	"github.com/elysiumorg/elysium-node/share/eds"
-	"github.com/elysiumorg/elysium-node/share/p2p/shrexsub"
+	"github.com/furyaxyz/elysium-node/header"
+	nodep2p "github.com/furyaxyz/elysium-node/nodebuilder/p2p"
+	"github.com/furyaxyz/elysium-node/share/eds"
+	"github.com/furyaxyz/elysium-node/share/p2p/shrexsub"
 )
 
 const networkID = "private"

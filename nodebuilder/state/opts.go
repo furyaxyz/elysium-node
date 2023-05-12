@@ -3,7 +3,7 @@ package state
 import (
 	"go.uber.org/fx"
 
-	"github.com/elysiumorg/elysium-app/x/blob/types"
+	"github.com/furyaxyz/elysium-app/x/blob/types"
 )
 
 // WithKeyringSigner overrides the default keyring signer constructed

@@ -6,14 +6,14 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/elysiumorg/elysium-node/core"
-	coremodule "github.com/elysiumorg/elysium-node/nodebuilder/core"
-	"github.com/elysiumorg/elysium-node/nodebuilder/node"
-	"github.com/elysiumorg/elysium-node/nodebuilder/p2p"
+	"github.com/furyaxyz/elysium-node/core"
+	coremodule "github.com/furyaxyz/elysium-node/nodebuilder/core"
+	"github.com/furyaxyz/elysium-node/nodebuilder/node"
+	"github.com/furyaxyz/elysium-node/nodebuilder/p2p"
 )
 
 func TestBridge_WithMockedCoreClient(t *testing.T) {
-	t.Skip("skipping") // consult https://github.com/elysiumorg/elysium-core/issues/667 for reasoning
+	t.Skip("skipping") // consult https://github.com/furyaxyz/elysium-core/issues/667 for reasoning
 	repo := MockStore(t, DefaultConfig(node.Bridge))
 
 	ctx, cancel := context.WithCancel(context.Background())

@@ -4,7 +4,7 @@ import (
 	"github.com/spf13/cobra"
 	flag "github.com/spf13/pflag"
 
-	"github.com/elysiumorg/elysium-node/nodebuilder"
+	"github.com/furyaxyz/elysium-node/nodebuilder"
 )
 
 // Init constructs a CLI command to initialize Elysium Node of any type with the given flags.

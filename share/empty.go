@@ -8,10 +8,10 @@ import (
 
 	"github.com/ipfs/go-blockservice"
 
-	"github.com/elysiumorg/elysium-app/pkg/appconsts"
-	"github.com/elysiumorg/elysium-app/pkg/da"
-	"github.com/elysiumorg/elysium-app/pkg/shares"
-	"github.com/elysiumorg/rsmt2d"
+	"github.com/furyaxyz/elysium-app/pkg/appconsts"
+	"github.com/furyaxyz/elysium-app/pkg/da"
+	"github.com/furyaxyz/elysium-app/pkg/shares"
+	"github.com/furyaxyz/rsmt2d"
 )
 
 var (

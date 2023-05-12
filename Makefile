@@ -79,7 +79,7 @@ install-key:
 ## fmt: Formats only *.go (excluding *.pb.go *pb_test.go). Runs `gofmt & goimports` internally.
 fmt: sort-imports
 	@find . -name '*.go' -type f -not -path "*.git*" -not -name '*.pb.go' -not -name '*pb_test.go' | xargs gofmt -w -s
-	@find . -name '*.go' -type f -not -path "*.git*"  -not -name '*.pb.go' -not -name '*pb_test.go' | xargs goimports -w -local github.com/elysiumorg
+	@find . -name '*.go' -type f -not -path "*.git*"  -not -name '*.pb.go' -not -name '*pb_test.go' | xargs goimports -w -local github.com/furyaxyz
 	@go mod tidy -compat=1.17
 	@cfmt -w -m=100 ./...
 	@markdownlint --fix --quiet --config .markdownlint.yaml .
@@ -134,7 +134,7 @@ benchmark:
 PB_PKGS=$(shell find . -name 'pb' -type d)
 PB_CORE=$(shell go list -f {{.Dir}} -m github.com/tendermint/tendermint)
 PB_GOGO=$(shell go list -f {{.Dir}} -m github.com/gogo/protobuf)
-PB_ELESYIUM_APP=$(shell go list -f {{.Dir}} -m github.com/elysiumorg/elysium-app)
+PB_ELESYIUM_APP=$(shell go list -f {{.Dir}} -m github.com/furyaxyz/elysium-app)
 
 ## pb-gen: Generate protobuf code for all /pb/*.proto files in the project.
 pb-gen:
@@ -157,16 +157,16 @@ openrpc-gen:
 lint-imports:
 	@echo "--> Running imports linter"
 	@for file in `find . -type f -name '*.go'`; \
-		do goimports-reviser -list-diff -set-exit-status -company-prefixes "github.com/elysiumorg"  -project-name "github.com/elysiumorg/elysium-node" -output stdout $$file \
+		do goimports-reviser -list-diff -set-exit-status -company-prefixes "github.com/furyaxyz"  -project-name "github.com/furyaxyz/elysium-node" -output stdout $$file \
 		 || exit 1;  \
     done;
 .PHONY: lint-imports
 
 sort-imports:
-	@goimports-reviser -company-prefixes "github.com/elysiumorg"  -project-name "github.com/elysiumorg/elysium-node" -output stdout ./...
+	@goimports-reviser -company-prefixes "github.com/furyaxyz"  -project-name "github.com/furyaxyz/elysium-node" -output stdout ./...
 .PHONY: sort-imports
 
 adr-gen:
 	@echo "--> Generating ADRs"
-	@curl -sSL https://raw.githubusercontent.com/elysiumorg/.github/main/adr-template.md > docs/architecture/adr-$(NUM)-$(TITLE).md
+	@curl -sSL https://raw.githubusercontent.com/furyaxyz/.github/main/adr-template.md > docs/architecture/adr-$(NUM)-$(TITLE).md
 .PHONY: adr-gen

@@ -1,15 +1,15 @@
 package state
 
 import (
-	apptypes "github.com/elysiumorg/elysium-app/x/blob/types"
-	libfraud "github.com/elysiumorg/go-fraud"
-	"github.com/elysiumorg/go-header/sync"
+	apptypes "github.com/furyaxyz/elysium-app/x/blob/types"
+	libfraud "github.com/furyaxyz/go-fraud"
+	"github.com/furyaxyz/go-header/sync"
 
-	"github.com/elysiumorg/elysium-node/header"
-	"github.com/elysiumorg/elysium-node/nodebuilder/core"
-	modfraud "github.com/elysiumorg/elysium-node/nodebuilder/fraud"
-	"github.com/elysiumorg/elysium-node/share/eds/byzantine"
-	"github.com/elysiumorg/elysium-node/state"
+	"github.com/furyaxyz/elysium-node/header"
+	"github.com/furyaxyz/elysium-node/nodebuilder/core"
+	modfraud "github.com/furyaxyz/elysium-node/nodebuilder/fraud"
+	"github.com/furyaxyz/elysium-node/share/eds/byzantine"
+	"github.com/furyaxyz/elysium-node/state"
 )
 
 // coreAccessor constructs a new instance of state.Module over

@@ -1,11 +1,11 @@
 package share
 
 import (
-	disc "github.com/elysiumorg/elysium-node/share/availability/discovery"
-	"github.com/elysiumorg/elysium-node/share/getters"
-	"github.com/elysiumorg/elysium-node/share/p2p/peers"
-	"github.com/elysiumorg/elysium-node/share/p2p/shrexeds"
-	"github.com/elysiumorg/elysium-node/share/p2p/shrexnd"
+	disc "github.com/furyaxyz/elysium-node/share/availability/discovery"
+	"github.com/furyaxyz/elysium-node/share/getters"
+	"github.com/furyaxyz/elysium-node/share/p2p/peers"
+	"github.com/furyaxyz/elysium-node/share/p2p/shrexeds"
+	"github.com/furyaxyz/elysium-node/share/p2p/shrexnd"
 )
 
 // WithPeerManagerMetrics is a utility function to turn on peer manager metrics and that is

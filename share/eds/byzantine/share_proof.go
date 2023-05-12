@@ -8,11 +8,11 @@ import (
 	logging "github.com/ipfs/go-log/v2"
 	"github.com/minio/sha256-simd"
 
-	"github.com/elysiumorg/nmt"
+	"github.com/furyaxyz/nmt"
 
-	"github.com/elysiumorg/elysium-node/share"
-	pb "github.com/elysiumorg/elysium-node/share/eds/byzantine/pb"
-	"github.com/elysiumorg/elysium-node/share/ipld"
+	"github.com/furyaxyz/elysium-node/share"
+	pb "github.com/furyaxyz/elysium-node/share/eds/byzantine/pb"
+	"github.com/furyaxyz/elysium-node/share/ipld"
 )
 
 var log = logging.Logger("share/byzantine")

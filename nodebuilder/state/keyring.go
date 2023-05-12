@@ -3,10 +3,10 @@ package state
 import (
 	kr "github.com/cosmos/cosmos-sdk/crypto/keyring"
 
-	apptypes "github.com/elysiumorg/elysium-app/x/blob/types"
+	apptypes "github.com/furyaxyz/elysium-app/x/blob/types"
 
-	"github.com/elysiumorg/elysium-node/libs/keystore"
-	"github.com/elysiumorg/elysium-node/nodebuilder/p2p"
+	"github.com/furyaxyz/elysium-node/libs/keystore"
+	"github.com/furyaxyz/elysium-node/nodebuilder/p2p"
 )
 
 const DefaultAccountName = "my_celes_key"

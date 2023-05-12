@@ -4,7 +4,7 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/elysiumorg/go-fraud"
+	"github.com/furyaxyz/go-fraud"
 )
 
 var _ Module = (*Service)(nil)

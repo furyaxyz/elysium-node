@@ -13,14 +13,14 @@ import (
 	"github.com/libp2p/go-libp2p/core/peer"
 	"github.com/libp2p/go-libp2p/core/protocol"
 
-	"github.com/elysiumorg/go-libp2p-messenger/serde"
-	"github.com/elysiumorg/nmt"
-	"github.com/elysiumorg/nmt/namespace"
+	"github.com/furyaxyz/go-libp2p-messenger/serde"
+	"github.com/furyaxyz/nmt"
+	"github.com/furyaxyz/nmt/namespace"
 
-	"github.com/elysiumorg/elysium-node/share"
-	"github.com/elysiumorg/elysium-node/share/ipld"
-	"github.com/elysiumorg/elysium-node/share/p2p"
-	pb "github.com/elysiumorg/elysium-node/share/p2p/shrexnd/pb"
+	"github.com/furyaxyz/elysium-node/share"
+	"github.com/furyaxyz/elysium-node/share/ipld"
+	"github.com/furyaxyz/elysium-node/share/p2p"
+	pb "github.com/furyaxyz/elysium-node/share/p2p/shrexnd/pb"
 )
 
 // Client implements client side of shrex/nd protocol to obtain namespaced shares data from remote

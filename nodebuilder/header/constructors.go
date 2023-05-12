@@ -9,16 +9,16 @@ import (
 	"github.com/libp2p/go-libp2p/p2p/net/conngater"
 	"go.uber.org/fx"
 
-	libfraud "github.com/elysiumorg/go-fraud"
-	libhead "github.com/elysiumorg/go-header"
-	"github.com/elysiumorg/go-header/p2p"
-	"github.com/elysiumorg/go-header/store"
-	"github.com/elysiumorg/go-header/sync"
+	libfraud "github.com/furyaxyz/go-fraud"
+	libhead "github.com/furyaxyz/go-header"
+	"github.com/furyaxyz/go-header/p2p"
+	"github.com/furyaxyz/go-header/store"
+	"github.com/furyaxyz/go-header/sync"
 
-	"github.com/elysiumorg/elysium-node/header"
-	modfraud "github.com/elysiumorg/elysium-node/nodebuilder/fraud"
-	modp2p "github.com/elysiumorg/elysium-node/nodebuilder/p2p"
-	"github.com/elysiumorg/elysium-node/share/eds/byzantine"
+	"github.com/furyaxyz/elysium-node/header"
+	modfraud "github.com/furyaxyz/elysium-node/nodebuilder/fraud"
+	modp2p "github.com/furyaxyz/elysium-node/nodebuilder/p2p"
+	"github.com/furyaxyz/elysium-node/share/eds/byzantine"
 )
 
 // newP2PExchange constructs a new Exchange for headers.

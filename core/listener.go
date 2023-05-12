@@ -11,11 +11,11 @@ import (
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/attribute"
 
-	libhead "github.com/elysiumorg/go-header"
+	libhead "github.com/furyaxyz/go-header"
 
-	"github.com/elysiumorg/elysium-node/header"
-	"github.com/elysiumorg/elysium-node/share/eds"
-	"github.com/elysiumorg/elysium-node/share/p2p/shrexsub"
+	"github.com/furyaxyz/elysium-node/header"
+	"github.com/furyaxyz/elysium-node/share/eds"
+	"github.com/furyaxyz/elysium-node/share/p2p/shrexsub"
 )
 
 var tracer = otel.Tracer("core/listener")

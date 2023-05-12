@@ -12,7 +12,7 @@ import (
 	"github.com/ipfs/go-libipfs/blocks"
 	"github.com/stretchr/testify/require"
 
-	"github.com/elysiumorg/elysium-node/share/ipld"
+	"github.com/furyaxyz/elysium-node/share/ipld"
 )
 
 func TestBlockGetter_GetBlocks(t *testing.T) {

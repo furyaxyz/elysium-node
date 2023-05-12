@@ -10,9 +10,9 @@
 
 ## Legend
 
-**Elysium Core** = tendermint consensus node that lives in [the elysium-core repository](https://github.com/elysiumorg/elysium-core).
+**Elysium Core** = tendermint consensus node that lives in [the elysium-core repository](https://github.com/furyaxyz/elysium-core).
 
-**Elysium Node** = elysium `full` or `light` nodes that live in [this repository](https://github.com/elysiumorg/elysium-node).
+**Elysium Node** = elysium `full` or `light` nodes that live in [this repository](https://github.com/furyaxyz/elysium-node).
 
 ## Context
 
@@ -121,7 +121,7 @@ At the moment, we will be using [bitswap](https://github.com/ipfs/go-bitswap) to
 Other negatives of bitswap include:
 
 * it somewhat couples storage with networking (e.g. it will be difficult to just compute the inner proof nodes on demand instead of storing them) by default
-* it requires multiple roundtrips for what could be a single (or at least fewer) roundtrip(s) if we wrote our own protocol; this is particularly relevant in the case where Elysium nodes will run on their own and download the whole block via the p2p network from other Elysium nodes (instead of from tendermint via RPC): the [current implementation](https://github.com/elysiumorg/elysium-core/blob/052d1269e0ec1de029e1cf3fc02d2585d7f9df10/p2p/ipld/read.go#L23-L30) using bitswap and ipfs is quite inefficient compared to a protocol that was not bitswap on a share-level
+* it requires multiple roundtrips for what could be a single (or at least fewer) roundtrip(s) if we wrote our own protocol; this is particularly relevant in the case where Elysium nodes will run on their own and download the whole block via the p2p network from other Elysium nodes (instead of from tendermint via RPC): the [current implementation](https://github.com/furyaxyz/elysium-core/blob/052d1269e0ec1de029e1cf3fc02d2585d7f9df10/p2p/ipld/read.go#L23-L30) using bitswap and ipfs is quite inefficient compared to a protocol that was not bitswap on a share-level
 * more code we do not directly have control over and more dependencies
 
 In the future, we should consider moving away from bitswap to either [GraphSync](https://github.com/ipfs/go-graphsync) or a custom protocol.

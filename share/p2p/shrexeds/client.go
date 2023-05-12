@@ -13,13 +13,13 @@ import (
 	"github.com/libp2p/go-libp2p/core/peer"
 	"github.com/libp2p/go-libp2p/core/protocol"
 
-	"github.com/elysiumorg/go-libp2p-messenger/serde"
-	"github.com/elysiumorg/rsmt2d"
+	"github.com/furyaxyz/go-libp2p-messenger/serde"
+	"github.com/furyaxyz/rsmt2d"
 
-	"github.com/elysiumorg/elysium-node/share"
-	"github.com/elysiumorg/elysium-node/share/eds"
-	"github.com/elysiumorg/elysium-node/share/p2p"
-	pb "github.com/elysiumorg/elysium-node/share/p2p/shrexeds/pb"
+	"github.com/furyaxyz/elysium-node/share"
+	"github.com/furyaxyz/elysium-node/share/eds"
+	"github.com/furyaxyz/elysium-node/share/p2p"
+	pb "github.com/furyaxyz/elysium-node/share/p2p/shrexeds/pb"
 )
 
 // Client is responsible for requesting EDSs for blocksync over the ShrEx/EDS protocol.

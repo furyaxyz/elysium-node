@@ -8,10 +8,10 @@ import (
 	routinghelpers "github.com/libp2p/go-libp2p-routing-helpers"
 	"github.com/libp2p/go-libp2p/p2p/discovery/routing"
 
-	"github.com/elysiumorg/elysium-node/share"
-	"github.com/elysiumorg/elysium-node/share/availability/discovery"
-	availability_test "github.com/elysiumorg/elysium-node/share/availability/test"
-	"github.com/elysiumorg/elysium-node/share/getters"
+	"github.com/furyaxyz/elysium-node/share"
+	"github.com/furyaxyz/elysium-node/share/availability/discovery"
+	availability_test "github.com/furyaxyz/elysium-node/share/availability/test"
+	"github.com/furyaxyz/elysium-node/share/getters"
 )
 
 // GetterWithRandSquare provides a share.Getter filled with 'n' NMT

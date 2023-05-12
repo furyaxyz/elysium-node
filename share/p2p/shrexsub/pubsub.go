@@ -9,8 +9,8 @@ import (
 	"github.com/libp2p/go-libp2p/core/host"
 	"github.com/libp2p/go-libp2p/core/peer"
 
-	"github.com/elysiumorg/elysium-node/share"
-	pb "github.com/elysiumorg/elysium-node/share/p2p/shrexsub/pb"
+	"github.com/furyaxyz/elysium-node/share"
+	pb "github.com/furyaxyz/elysium-node/share/p2p/shrexsub/pb"
 )
 
 var log = logging.Logger("shrex-sub")

@@ -19,9 +19,9 @@ import (
 	semconv "go.opentelemetry.io/otel/semconv/v1.11.0"
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/elysiumorg/elysium-node/logs"
-	"github.com/elysiumorg/elysium-node/nodebuilder"
-	modp2p "github.com/elysiumorg/elysium-node/nodebuilder/p2p"
+	"github.com/furyaxyz/elysium-node/logs"
+	"github.com/furyaxyz/elysium-node/nodebuilder"
+	modp2p "github.com/furyaxyz/elysium-node/nodebuilder/p2p"
 )
 
 var (

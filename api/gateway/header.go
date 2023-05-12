@@ -8,7 +8,7 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/elysiumorg/elysium-node/header"
+	"github.com/furyaxyz/elysium-node/header"
 )
 
 const (

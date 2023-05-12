@@ -74,4 +74,4 @@ Several params values that come hardcoded in DASer (`samplingRange`, `concurrenc
 
 ## References
 
-- [DASer PR](https://github.com/elysiumorg/elysium-node/pull/988/)
+- [DASer PR](https://github.com/furyaxyz/elysium-node/pull/988/)

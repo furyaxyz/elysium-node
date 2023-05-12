@@ -4,11 +4,11 @@ import (
 	"context"
 	"fmt"
 
-	libhead "github.com/elysiumorg/go-header"
-	"github.com/elysiumorg/go-header/p2p"
-	"github.com/elysiumorg/go-header/sync"
+	libhead "github.com/furyaxyz/go-header"
+	"github.com/furyaxyz/go-header/p2p"
+	"github.com/furyaxyz/go-header/sync"
 
-	"github.com/elysiumorg/elysium-node/header"
+	"github.com/furyaxyz/elysium-node/header"
 )
 
 // Service represents the header Service that can be started / stopped on a node.
@@ -61,7 +61,7 @@ func (s *Service) GetByHeight(ctx context.Context, height uint64) (*header.Exten
 			"networkHeight: %d, requestedHeight: %d", head.Height(), height)
 	}
 
-	// TODO(vgonkivs): remove after https://github.com/elysiumorg/go-header/issues/32 will be
+	// TODO(vgonkivs): remove after https://github.com/furyaxyz/go-header/issues/32 will be
 	// implemented
 	head, err = s.store.Head(ctx)
 	switch {

@@ -16,12 +16,12 @@ import (
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 	core "github.com/tendermint/tendermint/types"
 
-	"github.com/elysiumorg/elysium-app/pkg/da"
-	appshares "github.com/elysiumorg/elysium-app/pkg/shares"
+	"github.com/furyaxyz/elysium-app/pkg/da"
+	appshares "github.com/furyaxyz/elysium-app/pkg/shares"
 
-	"github.com/elysiumorg/elysium-node/header"
-	"github.com/elysiumorg/elysium-node/share"
-	availability_test "github.com/elysiumorg/elysium-node/share/availability/test"
+	"github.com/furyaxyz/elysium-node/header"
+	"github.com/furyaxyz/elysium-node/share"
+	availability_test "github.com/furyaxyz/elysium-node/share/availability/test"
 )
 
 func TestSharesAvailable(t *testing.T) {

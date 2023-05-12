@@ -6,9 +6,9 @@ import (
 	"github.com/ipfs/go-blockservice"
 	mdutils "github.com/ipfs/go-merkledag/test"
 
-	"github.com/elysiumorg/elysium-node/share"
-	availability_test "github.com/elysiumorg/elysium-node/share/availability/test"
-	"github.com/elysiumorg/elysium-node/share/getters"
+	"github.com/furyaxyz/elysium-node/share"
+	availability_test "github.com/furyaxyz/elysium-node/share/availability/test"
+	"github.com/furyaxyz/elysium-node/share/getters"
 )
 
 // GetterWithRandSquare provides a share.Getter filled with 'n' NMT trees of 'n' random shares,

@@ -8,12 +8,12 @@ import (
 	"github.com/libp2p/go-libp2p/core/host"
 	"go.uber.org/fx"
 
-	"github.com/elysiumorg/go-fraud"
-	"github.com/elysiumorg/go-fraud/fraudserv"
-	libhead "github.com/elysiumorg/go-header"
+	"github.com/furyaxyz/go-fraud"
+	"github.com/furyaxyz/go-fraud/fraudserv"
+	libhead "github.com/furyaxyz/go-header"
 
-	"github.com/elysiumorg/elysium-node/header"
-	"github.com/elysiumorg/elysium-node/nodebuilder/p2p"
+	"github.com/furyaxyz/elysium-node/header"
+	"github.com/furyaxyz/elysium-node/nodebuilder/p2p"
 )
 
 func newFraudService(syncerEnabled bool) func(

@@ -3,14 +3,14 @@ package main
 import (
 	"github.com/spf13/cobra"
 
-	cmdnode "github.com/elysiumorg/elysium-node/cmd"
-	"github.com/elysiumorg/elysium-node/nodebuilder/core"
-	"github.com/elysiumorg/elysium-node/nodebuilder/gateway"
-	"github.com/elysiumorg/elysium-node/nodebuilder/header"
-	"github.com/elysiumorg/elysium-node/nodebuilder/node"
-	"github.com/elysiumorg/elysium-node/nodebuilder/p2p"
-	"github.com/elysiumorg/elysium-node/nodebuilder/rpc"
-	"github.com/elysiumorg/elysium-node/nodebuilder/state"
+	cmdnode "github.com/furyaxyz/elysium-node/cmd"
+	"github.com/furyaxyz/elysium-node/nodebuilder/core"
+	"github.com/furyaxyz/elysium-node/nodebuilder/gateway"
+	"github.com/furyaxyz/elysium-node/nodebuilder/header"
+	"github.com/furyaxyz/elysium-node/nodebuilder/node"
+	"github.com/furyaxyz/elysium-node/nodebuilder/p2p"
+	"github.com/furyaxyz/elysium-node/nodebuilder/rpc"
+	"github.com/furyaxyz/elysium-node/nodebuilder/state"
 )
 
 func persistentPreRunEnv(cmd *cobra.Command, nodeType node.Type, _ []string) error {

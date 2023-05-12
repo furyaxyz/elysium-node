@@ -3,7 +3,7 @@ package das
 import (
 	"context"
 
-	"github.com/elysiumorg/elysium-node/das"
+	"github.com/furyaxyz/elysium-node/das"
 )
 
 var _ Module = (*API)(nil)

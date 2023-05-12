@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/elysiumorg/elysium-node/libs/utils"
+	"github.com/furyaxyz/elysium-node/libs/utils"
 )
 
 type Config struct {

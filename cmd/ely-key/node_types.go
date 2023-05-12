@@ -9,8 +9,8 @@ import (
 	"github.com/spf13/cobra"
 	flag "github.com/spf13/pflag"
 
-	nodecmd "github.com/elysiumorg/elysium-node/cmd"
-	"github.com/elysiumorg/elysium-node/nodebuilder/p2p"
+	nodecmd "github.com/furyaxyz/elysium-node/cmd"
+	"github.com/furyaxyz/elysium-node/nodebuilder/p2p"
 )
 
 var (

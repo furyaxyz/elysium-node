@@ -8,7 +8,7 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/elysiumorg/elysium-node/share"
+	"github.com/furyaxyz/elysium-node/share"
 )
 
 const heightAvailabilityEndpoint = "/data_available"

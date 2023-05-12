@@ -12,14 +12,14 @@ import (
 	"go.opentelemetry.io/otel/metric/instrument/syncint64"
 	"go.opentelemetry.io/otel/metric/unit"
 
-	"github.com/elysiumorg/nmt/namespace"
-	"github.com/elysiumorg/rsmt2d"
+	"github.com/furyaxyz/nmt/namespace"
+	"github.com/furyaxyz/rsmt2d"
 
-	"github.com/elysiumorg/elysium-node/share"
-	"github.com/elysiumorg/elysium-node/share/p2p"
-	"github.com/elysiumorg/elysium-node/share/p2p/peers"
-	"github.com/elysiumorg/elysium-node/share/p2p/shrexeds"
-	"github.com/elysiumorg/elysium-node/share/p2p/shrexnd"
+	"github.com/furyaxyz/elysium-node/share"
+	"github.com/furyaxyz/elysium-node/share/p2p"
+	"github.com/furyaxyz/elysium-node/share/p2p/peers"
+	"github.com/furyaxyz/elysium-node/share/p2p/shrexeds"
+	"github.com/furyaxyz/elysium-node/share/p2p/shrexnd"
 )
 
 var _ share.Getter = (*ShrexGetter)(nil)

@@ -46,7 +46,7 @@ interfaces/traits in other languages over RPC clients.
 ### Implementation
 
 The tracking issue can be found
-[here](https://github.com/elysiumorg/elysium-node/issues/944). It provides a
+[here](https://github.com/furyaxyz/elysium-node/issues/944). It provides a
 more detailed step-by-step process for how the below described design will be
 implemented.
 

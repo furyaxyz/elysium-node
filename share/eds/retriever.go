@@ -15,13 +15,13 @@ import (
 	"go.opentelemetry.io/otel/codes"
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/elysiumorg/elysium-app/pkg/da"
-	"github.com/elysiumorg/elysium-app/pkg/wrapper"
-	"github.com/elysiumorg/rsmt2d"
+	"github.com/furyaxyz/elysium-app/pkg/da"
+	"github.com/furyaxyz/elysium-app/pkg/wrapper"
+	"github.com/furyaxyz/rsmt2d"
 
-	"github.com/elysiumorg/elysium-node/share"
-	"github.com/elysiumorg/elysium-node/share/eds/byzantine"
-	"github.com/elysiumorg/elysium-node/share/ipld"
+	"github.com/furyaxyz/elysium-node/share"
+	"github.com/furyaxyz/elysium-node/share/eds/byzantine"
+	"github.com/furyaxyz/elysium-node/share/ipld"
 )
 
 var (
@@ -107,7 +107,7 @@ type retrievalSession struct {
 	bget blockservice.BlockGetter
 
 	// TODO(@Wondertan): Extract into a separate data structure
-	// https://github.com/elysiumorg/rsmt2d/issues/135
+	// https://github.com/furyaxyz/rsmt2d/issues/135
 	squareQuadrants  []*quadrant
 	squareCellsLks   [][]sync.Mutex
 	squareCellsCount uint32

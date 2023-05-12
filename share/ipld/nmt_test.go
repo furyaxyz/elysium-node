@@ -10,10 +10,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/elysiumorg/elysium-app/pkg/appconsts"
-	"github.com/elysiumorg/elysium-app/pkg/da"
+	"github.com/furyaxyz/elysium-app/pkg/appconsts"
+	"github.com/furyaxyz/elysium-app/pkg/da"
 
-	"github.com/elysiumorg/elysium-node/libs/utils"
+	"github.com/furyaxyz/elysium-node/libs/utils"
 )
 
 // TestNamespaceFromCID checks that deriving the Namespaced hash from

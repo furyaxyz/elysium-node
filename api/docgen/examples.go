@@ -17,15 +17,15 @@ import (
 	"golang.org/x/text/cases"
 	"golang.org/x/text/language"
 
-	"github.com/elysiumorg/go-fraud"
-	"github.com/elysiumorg/rsmt2d"
+	"github.com/furyaxyz/go-fraud"
+	"github.com/furyaxyz/rsmt2d"
 
-	"github.com/elysiumorg/elysium-node/das"
-	"github.com/elysiumorg/elysium-node/header"
-	"github.com/elysiumorg/elysium-node/nodebuilder/node"
-	"github.com/elysiumorg/elysium-node/share"
-	"github.com/elysiumorg/elysium-node/share/eds/byzantine"
-	"github.com/elysiumorg/elysium-node/state"
+	"github.com/furyaxyz/elysium-node/das"
+	"github.com/furyaxyz/elysium-node/header"
+	"github.com/furyaxyz/elysium-node/nodebuilder/node"
+	"github.com/furyaxyz/elysium-node/share"
+	"github.com/furyaxyz/elysium-node/share/eds/byzantine"
+	"github.com/furyaxyz/elysium-node/state"
 )
 
 //go:embed "exampledata/extendedHeader.json"
@@ -116,7 +116,7 @@ func init() {
 	addToExampleValues(network.Connected)
 	addToExampleValues(network.ReachabilityPrivate)
 
-	pID := protocol.ID("/elysium/mocha/ipfs/bitswap")
+	pID := protocol.ID("/elysium/thebaid/ipfs/bitswap")
 	addToExampleValues(pID)
 
 	peerID := peer.ID("12D3KooWPRb5h3g9MH7sx9qfbSQZG5cXv1a2Qs3o4aW5YmmzPq82")

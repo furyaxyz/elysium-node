@@ -16,15 +16,15 @@ import (
 	go_openrpc_reflect "github.com/etclabscore/go-openrpc-reflect"
 	meta_schema "github.com/open-rpc/meta-schema"
 
-	"github.com/elysiumorg/elysium-node/api/rpc/client"
-	"github.com/elysiumorg/elysium-node/nodebuilder/node"
+	"github.com/furyaxyz/elysium-node/api/rpc/client"
+	"github.com/furyaxyz/elysium-node/nodebuilder/node"
 )
 
 const (
 	APIDescription = "The Elysium Node API is the collection of RPC methods that " +
 		"can be used to interact with the services provided by Elysium Data Availability Nodes."
 	APIName  = "Elysium Node API"
-	DocsURL  = "https://github.com/elysiumorg/elysium-node"
+	DocsURL  = "https://github.com/furyaxyz/elysium-node"
 	DocsName = "Elysium Node GitHub"
 )
 

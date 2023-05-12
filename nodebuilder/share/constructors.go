@@ -11,14 +11,14 @@ import (
 	routingdisc "github.com/libp2p/go-libp2p/p2p/discovery/routing"
 	"go.uber.org/fx"
 
-	"github.com/elysiumorg/elysium-app/pkg/da"
+	"github.com/furyaxyz/elysium-app/pkg/da"
 
-	"github.com/elysiumorg/elysium-node/share"
-	"github.com/elysiumorg/elysium-node/share/availability/cache"
-	disc "github.com/elysiumorg/elysium-node/share/availability/discovery"
-	"github.com/elysiumorg/elysium-node/share/availability/light"
-	"github.com/elysiumorg/elysium-node/share/eds"
-	"github.com/elysiumorg/elysium-node/share/getters"
+	"github.com/furyaxyz/elysium-node/share"
+	"github.com/furyaxyz/elysium-node/share/availability/cache"
+	disc "github.com/furyaxyz/elysium-node/share/availability/discovery"
+	"github.com/furyaxyz/elysium-node/share/availability/light"
+	"github.com/furyaxyz/elysium-node/share/eds"
+	"github.com/furyaxyz/elysium-node/share/getters"
 )
 
 func newDiscovery(cfg Config) func(routing.ContentRouting, host.Host) *disc.Discovery {

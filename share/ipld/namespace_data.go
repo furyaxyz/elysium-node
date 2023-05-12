@@ -13,8 +13,8 @@ import (
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/codes"
 
-	"github.com/elysiumorg/nmt"
-	"github.com/elysiumorg/nmt/namespace"
+	"github.com/furyaxyz/nmt"
+	"github.com/furyaxyz/nmt/namespace"
 )
 
 // Option is the functional option that is applied to the NamespaceData instance

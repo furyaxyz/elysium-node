@@ -24,7 +24,7 @@ on:
 jobs:
   # Dockerfile Linting
   hadolint:
-    uses: elysiumorg/.github/.github/workflows/reusable_dockerfile_lint.yml@v0.1.1 # yamllint disable-line rule:line-length
+    uses: furyaxyz/.github/.github/workflows/reusable_dockerfile_lint.yml@v0.1.1 # yamllint disable-line rule:line-length
     with:
       dockerfile: Dockerfile
 
@@ -32,7 +32,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: elysiumorg/.github/.github/actions/yamllint@v0.1.1
+      - uses: furyaxyz/.github/.github/actions/yamllint@v0.1.1
 
   markdown-lint:
     name: Markdown Lint
@@ -58,13 +58,13 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Version Release
-        uses: elysiumorg/.github/.github/actions/version-release@v0.1.1
+        uses: furyaxyz/.github/.github/actions/version-release@v0.1.1
         with:
           github-token: ${{secrets.GITHUB_TOKEN}}
           version-bump: ${{inputs.version}}
 
   # TODO: permission issue, but not worth fixing as this should be refactored
-  # into the elysiumorg/.github repo, at which point any permission issues will
+  # into the furyaxyz/.github repo, at which point any permission issues will
   # be resolved.
   #
   # docker:

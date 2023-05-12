@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 
-	da "github.com/elysiumorg/elysium-app/pkg/da"
+	da "github.com/furyaxyz/elysium-app/pkg/da"
 )
 
 // ErrNotAvailable is returned whenever DA sampling fails.

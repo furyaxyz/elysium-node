@@ -14,14 +14,14 @@ import (
 	semconv "go.opentelemetry.io/otel/semconv/v1.11.0"
 	"go.uber.org/fx"
 
-	"github.com/elysiumorg/go-fraud"
+	"github.com/furyaxyz/go-fraud"
 
-	"github.com/elysiumorg/elysium-node/nodebuilder/das"
-	modheader "github.com/elysiumorg/elysium-node/nodebuilder/header"
-	"github.com/elysiumorg/elysium-node/nodebuilder/node"
-	"github.com/elysiumorg/elysium-node/nodebuilder/p2p"
-	"github.com/elysiumorg/elysium-node/nodebuilder/share"
-	"github.com/elysiumorg/elysium-node/state"
+	"github.com/furyaxyz/elysium-node/nodebuilder/das"
+	modheader "github.com/furyaxyz/elysium-node/nodebuilder/header"
+	"github.com/furyaxyz/elysium-node/nodebuilder/node"
+	"github.com/furyaxyz/elysium-node/nodebuilder/p2p"
+	"github.com/furyaxyz/elysium-node/nodebuilder/share"
+	"github.com/furyaxyz/elysium-node/state"
 )
 
 // WithNetwork specifies the Network to which the Node should connect to.

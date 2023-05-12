@@ -10,12 +10,12 @@ import (
 	"github.com/libp2p/go-libp2p/core/peer"
 	"github.com/stretchr/testify/require"
 
-	"github.com/elysiumorg/elysium-node/header/headertest"
-	"github.com/elysiumorg/elysium-node/nodebuilder"
-	"github.com/elysiumorg/elysium-node/nodebuilder/core"
-	"github.com/elysiumorg/elysium-node/nodebuilder/node"
-	"github.com/elysiumorg/elysium-node/nodebuilder/tests/swamp"
-	"github.com/elysiumorg/elysium-node/share/eds/byzantine"
+	"github.com/furyaxyz/elysium-node/header/headertest"
+	"github.com/furyaxyz/elysium-node/nodebuilder"
+	"github.com/furyaxyz/elysium-node/nodebuilder/core"
+	"github.com/furyaxyz/elysium-node/nodebuilder/node"
+	"github.com/furyaxyz/elysium-node/nodebuilder/tests/swamp"
+	"github.com/furyaxyz/elysium-node/share/eds/byzantine"
 )
 
 /*

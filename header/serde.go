@@ -5,9 +5,9 @@ import (
 	core "github.com/tendermint/tendermint/types"
 	"golang.org/x/crypto/blake2b"
 
-	"github.com/elysiumorg/elysium-app/pkg/da"
+	"github.com/furyaxyz/elysium-app/pkg/da"
 
-	header_pb "github.com/elysiumorg/elysium-node/header/pb"
+	header_pb "github.com/furyaxyz/elysium-node/header/pb"
 )
 
 // MarshalExtendedHeader serializes given ExtendedHeader to bytes using protobuf.

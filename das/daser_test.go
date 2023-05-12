@@ -16,20 +16,20 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/tendermint/tendermint/types"
 
-	"github.com/elysiumorg/go-fraud"
-	"github.com/elysiumorg/go-fraud/fraudserv"
-	"github.com/elysiumorg/go-fraud/fraudtest"
-	libhead "github.com/elysiumorg/go-header"
+	"github.com/furyaxyz/go-fraud"
+	"github.com/furyaxyz/go-fraud/fraudserv"
+	"github.com/furyaxyz/go-fraud/fraudtest"
+	libhead "github.com/furyaxyz/go-header"
 
-	"github.com/elysiumorg/elysium-node/header"
-	"github.com/elysiumorg/elysium-node/header/headertest"
-	"github.com/elysiumorg/elysium-node/share"
-	"github.com/elysiumorg/elysium-node/share/availability/full"
-	"github.com/elysiumorg/elysium-node/share/availability/light"
-	"github.com/elysiumorg/elysium-node/share/availability/mocks"
-	availability_test "github.com/elysiumorg/elysium-node/share/availability/test"
-	"github.com/elysiumorg/elysium-node/share/eds/byzantine"
-	"github.com/elysiumorg/elysium-node/share/getters"
+	"github.com/furyaxyz/elysium-node/header"
+	"github.com/furyaxyz/elysium-node/header/headertest"
+	"github.com/furyaxyz/elysium-node/share"
+	"github.com/furyaxyz/elysium-node/share/availability/full"
+	"github.com/furyaxyz/elysium-node/share/availability/light"
+	"github.com/furyaxyz/elysium-node/share/availability/mocks"
+	availability_test "github.com/furyaxyz/elysium-node/share/availability/test"
+	"github.com/furyaxyz/elysium-node/share/eds/byzantine"
+	"github.com/furyaxyz/elysium-node/share/getters"
 )
 
 var timeout = time.Second * 15

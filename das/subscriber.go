@@ -3,9 +3,9 @@ package das
 import (
 	"context"
 
-	libhead "github.com/elysiumorg/go-header"
+	libhead "github.com/furyaxyz/go-header"
 
-	"github.com/elysiumorg/elysium-node/header"
+	"github.com/furyaxyz/elysium-node/header"
 )
 
 // subscriber subscribes to notifications about new headers in the network to keep

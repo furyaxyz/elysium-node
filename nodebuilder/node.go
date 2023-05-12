@@ -19,15 +19,15 @@ import (
 	"go.uber.org/fx/fxevent"
 	"go.uber.org/zap/zapcore"
 
-	"github.com/elysiumorg/elysium-node/api/gateway"
-	"github.com/elysiumorg/elysium-node/api/rpc"
-	"github.com/elysiumorg/elysium-node/nodebuilder/das"
-	"github.com/elysiumorg/elysium-node/nodebuilder/fraud"
-	"github.com/elysiumorg/elysium-node/nodebuilder/header"
-	"github.com/elysiumorg/elysium-node/nodebuilder/node"
-	"github.com/elysiumorg/elysium-node/nodebuilder/p2p"
-	"github.com/elysiumorg/elysium-node/nodebuilder/share"
-	"github.com/elysiumorg/elysium-node/nodebuilder/state"
+	"github.com/furyaxyz/elysium-node/api/gateway"
+	"github.com/furyaxyz/elysium-node/api/rpc"
+	"github.com/furyaxyz/elysium-node/nodebuilder/das"
+	"github.com/furyaxyz/elysium-node/nodebuilder/fraud"
+	"github.com/furyaxyz/elysium-node/nodebuilder/header"
+	"github.com/furyaxyz/elysium-node/nodebuilder/node"
+	"github.com/furyaxyz/elysium-node/nodebuilder/p2p"
+	"github.com/furyaxyz/elysium-node/nodebuilder/share"
+	"github.com/furyaxyz/elysium-node/nodebuilder/state"
 )
 
 var Timeout = time.Minute * 2

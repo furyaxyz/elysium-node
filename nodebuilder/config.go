@@ -7,16 +7,16 @@ import (
 	"github.com/BurntSushi/toml"
 	"github.com/imdario/mergo"
 
-	"github.com/elysiumorg/elysium-node/libs/fslock"
-	"github.com/elysiumorg/elysium-node/nodebuilder/core"
-	"github.com/elysiumorg/elysium-node/nodebuilder/das"
-	"github.com/elysiumorg/elysium-node/nodebuilder/gateway"
-	"github.com/elysiumorg/elysium-node/nodebuilder/header"
-	"github.com/elysiumorg/elysium-node/nodebuilder/node"
-	"github.com/elysiumorg/elysium-node/nodebuilder/p2p"
-	"github.com/elysiumorg/elysium-node/nodebuilder/rpc"
-	"github.com/elysiumorg/elysium-node/nodebuilder/share"
-	"github.com/elysiumorg/elysium-node/nodebuilder/state"
+	"github.com/furyaxyz/elysium-node/libs/fslock"
+	"github.com/furyaxyz/elysium-node/nodebuilder/core"
+	"github.com/furyaxyz/elysium-node/nodebuilder/das"
+	"github.com/furyaxyz/elysium-node/nodebuilder/gateway"
+	"github.com/furyaxyz/elysium-node/nodebuilder/header"
+	"github.com/furyaxyz/elysium-node/nodebuilder/node"
+	"github.com/furyaxyz/elysium-node/nodebuilder/p2p"
+	"github.com/furyaxyz/elysium-node/nodebuilder/rpc"
+	"github.com/furyaxyz/elysium-node/nodebuilder/share"
+	"github.com/furyaxyz/elysium-node/nodebuilder/state"
 )
 
 // ConfigLoader defines a function that loads a config from any source.

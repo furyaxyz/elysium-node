@@ -5,9 +5,9 @@ import (
 
 	"go.uber.org/fx"
 
-	"github.com/elysiumorg/elysium-node/das"
-	modfraud "github.com/elysiumorg/elysium-node/nodebuilder/fraud"
-	"github.com/elysiumorg/elysium-node/nodebuilder/node"
+	"github.com/furyaxyz/elysium-node/das"
+	modfraud "github.com/furyaxyz/elysium-node/nodebuilder/fraud"
+	"github.com/furyaxyz/elysium-node/nodebuilder/node"
 )
 
 func ConstructModule(tp node.Type, cfg *Config) fx.Option {

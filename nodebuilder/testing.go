@@ -8,15 +8,15 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/fx"
 
-	apptypes "github.com/elysiumorg/elysium-app/x/blob/types"
+	apptypes "github.com/furyaxyz/elysium-app/x/blob/types"
 
-	"github.com/elysiumorg/elysium-node/core"
-	"github.com/elysiumorg/elysium-node/header/headertest"
-	"github.com/elysiumorg/elysium-node/libs/fxutil"
-	"github.com/elysiumorg/elysium-node/nodebuilder/header"
-	"github.com/elysiumorg/elysium-node/nodebuilder/node"
-	"github.com/elysiumorg/elysium-node/nodebuilder/p2p"
-	"github.com/elysiumorg/elysium-node/nodebuilder/state"
+	"github.com/furyaxyz/elysium-node/core"
+	"github.com/furyaxyz/elysium-node/header/headertest"
+	"github.com/furyaxyz/elysium-node/libs/fxutil"
+	"github.com/furyaxyz/elysium-node/nodebuilder/header"
+	"github.com/furyaxyz/elysium-node/nodebuilder/node"
+	"github.com/furyaxyz/elysium-node/nodebuilder/p2p"
+	"github.com/furyaxyz/elysium-node/nodebuilder/state"
 )
 
 // MockStore provides mock in memory Store for testing purposes.

@@ -14,20 +14,20 @@ import (
 	mocknet "github.com/libp2p/go-libp2p/p2p/net/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/elysiumorg/elysium-app/pkg/da"
-	libhead "github.com/elysiumorg/go-header"
-	"github.com/elysiumorg/nmt/namespace"
-	"github.com/elysiumorg/rsmt2d"
+	"github.com/furyaxyz/elysium-app/pkg/da"
+	libhead "github.com/furyaxyz/go-header"
+	"github.com/furyaxyz/nmt/namespace"
+	"github.com/furyaxyz/rsmt2d"
 
-	"github.com/elysiumorg/elysium-node/header"
-	"github.com/elysiumorg/elysium-node/header/headertest"
-	"github.com/elysiumorg/elysium-node/share"
-	"github.com/elysiumorg/elysium-node/share/availability/discovery"
-	"github.com/elysiumorg/elysium-node/share/eds"
-	"github.com/elysiumorg/elysium-node/share/p2p/peers"
-	"github.com/elysiumorg/elysium-node/share/p2p/shrexeds"
-	"github.com/elysiumorg/elysium-node/share/p2p/shrexnd"
-	"github.com/elysiumorg/elysium-node/share/p2p/shrexsub"
+	"github.com/furyaxyz/elysium-node/header"
+	"github.com/furyaxyz/elysium-node/header/headertest"
+	"github.com/furyaxyz/elysium-node/share"
+	"github.com/furyaxyz/elysium-node/share/availability/discovery"
+	"github.com/furyaxyz/elysium-node/share/eds"
+	"github.com/furyaxyz/elysium-node/share/p2p/peers"
+	"github.com/furyaxyz/elysium-node/share/p2p/shrexeds"
+	"github.com/furyaxyz/elysium-node/share/p2p/shrexnd"
+	"github.com/furyaxyz/elysium-node/share/p2p/shrexsub"
 )
 
 func TestShrexGetter(t *testing.T) {

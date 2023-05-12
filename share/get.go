@@ -7,10 +7,10 @@ import (
 	"github.com/ipfs/go-cid"
 	format "github.com/ipfs/go-ipld-format"
 
-	"github.com/elysiumorg/nmt"
-	"github.com/elysiumorg/nmt/namespace"
+	"github.com/furyaxyz/nmt"
+	"github.com/furyaxyz/nmt/namespace"
 
-	"github.com/elysiumorg/elysium-node/share/ipld"
+	"github.com/furyaxyz/elysium-node/share/ipld"
 )
 
 // GetShare fetches and returns the data for leaf `leafIndex` of root `rootCid`.

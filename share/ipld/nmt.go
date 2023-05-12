@@ -17,9 +17,9 @@ import (
 	mhcore "github.com/multiformats/go-multihash/core"
 	"go.opentelemetry.io/otel"
 
-	"github.com/elysiumorg/elysium-app/pkg/appconsts"
-	"github.com/elysiumorg/elysium-app/pkg/da"
-	"github.com/elysiumorg/nmt"
+	"github.com/furyaxyz/elysium-app/pkg/appconsts"
+	"github.com/furyaxyz/elysium-app/pkg/da"
+	"github.com/furyaxyz/nmt"
 )
 
 var (

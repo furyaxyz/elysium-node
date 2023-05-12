@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/elysiumorg/elysium-node/das"
-	"github.com/elysiumorg/elysium-node/nodebuilder/node"
-	modp2p "github.com/elysiumorg/elysium-node/nodebuilder/p2p"
+	"github.com/furyaxyz/elysium-node/das"
+	"github.com/furyaxyz/elysium-node/nodebuilder/node"
+	modp2p "github.com/furyaxyz/elysium-node/nodebuilder/p2p"
 )
 
 // Config contains configuration parameters for the DASer (or DASing process)

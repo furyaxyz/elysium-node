@@ -10,9 +10,9 @@ import (
 	tmjson "github.com/tendermint/tendermint/libs/json"
 	core "github.com/tendermint/tendermint/types"
 
-	"github.com/elysiumorg/elysium-app/pkg/da"
-	libhead "github.com/elysiumorg/go-header"
-	"github.com/elysiumorg/rsmt2d"
+	"github.com/furyaxyz/elysium-app/pkg/da"
+	libhead "github.com/furyaxyz/go-header"
+	"github.com/furyaxyz/rsmt2d"
 )
 
 // ConstructFn aliases a function that creates an ExtendedHeader.

@@ -3,10 +3,10 @@ package gateway
 import (
 	logging "github.com/ipfs/go-log/v2"
 
-	"github.com/elysiumorg/elysium-node/das"
-	"github.com/elysiumorg/elysium-node/nodebuilder/header"
-	"github.com/elysiumorg/elysium-node/nodebuilder/share"
-	"github.com/elysiumorg/elysium-node/nodebuilder/state"
+	"github.com/furyaxyz/elysium-node/das"
+	"github.com/furyaxyz/elysium-node/nodebuilder/header"
+	"github.com/furyaxyz/elysium-node/nodebuilder/share"
+	"github.com/furyaxyz/elysium-node/nodebuilder/state"
 )
 
 var log = logging.Logger("gateway")

@@ -5,7 +5,7 @@ import (
 	"github.com/libp2p/go-libp2p/core/metrics"
 	"go.uber.org/fx"
 
-	"github.com/elysiumorg/elysium-node/nodebuilder/node"
+	"github.com/furyaxyz/elysium-node/nodebuilder/node"
 )
 
 var log = logging.Logger("module/p2p")

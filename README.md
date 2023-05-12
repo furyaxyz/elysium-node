@@ -1,10 +1,10 @@
 # Elysium Node
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/elysiumorg/elysium-node.svg)](https://pkg.go.dev/github.com/elysiumorg/elysium-node)
-[![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/elysiumorg/elysium-node)](https://github.com/elysiumorg/elysium-node/releases/latest)
-[![Go CI](https://github.com/elysiumorg/elysium-node/actions/workflows/go-ci.yml/badge.svg)](https://github.com/elysiumorg/elysium-node/actions/workflows/go-ci.yml)
-[![Go Report Card](https://goreportcard.com/badge/github.com/elysiumorg/elysium-node)](https://goreportcard.com/report/github.com/elysiumorg/elysium-node)
-[![codecov](https://codecov.io/gh/elysiumorg/elysium-node/branch/main/graph/badge.svg?token=CWGA4RLDS9)](https://codecov.io/gh/elysiumorg/elysium-node)
+[![Go Reference](https://pkg.go.dev/badge/github.com/furyaxyz/elysium-node.svg)](https://pkg.go.dev/github.com/furyaxyz/elysium-node)
+[![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/furyaxyz/elysium-node)](https://github.com/furyaxyz/elysium-node/releases/latest)
+[![Go CI](https://github.com/furyaxyz/elysium-node/actions/workflows/go-ci.yml/badge.svg)](https://github.com/furyaxyz/elysium-node/actions/workflows/go-ci.yml)
+[![Go Report Card](https://goreportcard.com/badge/github.com/furyaxyz/elysium-node)](https://goreportcard.com/report/github.com/furyaxyz/elysium-node)
+[![codecov](https://codecov.io/gh/furyaxyz/elysium-node/branch/main/graph/badge.svg?token=CWGA4RLDS9)](https://codecov.io/gh/furyaxyz/elysium-node)
 
 Golang implementation of Elysium's data availability node types (`light` | `full` | `bridge`).
 
@@ -45,7 +45,7 @@ See the official docs page for system requirements per node type:
 ## Installation
 
 ```sh
-git clone https://github.com/elysiumorg/elysium-node.git
+git clone https://github.com/furyaxyz/elysium-node.git
 cd elysium-node
 make build
 sudo make install
@@ -63,7 +63,7 @@ Elysium-node public API is documented [here](https://docs.elysium.org/category/n
 - **Full** nodes - fully reconstruct and store blocks by sampling the DA network for shares
 - **Light** nodes - verify the availability of block data by sampling the DA network for shares
 
-More information can be found [here](https://github.com/elysiumorg/elysium-node/blob/main/docs/adr/adr-003-march2022-testnet.md#legend).
+More information can be found [here](https://github.com/furyaxyz/elysium-node/blob/main/docs/adr/adr-003-march2022-testnet.md#legend).
 
 ## Run a node
 

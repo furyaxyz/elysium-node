@@ -3,12 +3,12 @@ package share
 import (
 	"fmt"
 
-	"github.com/elysiumorg/elysium-node/nodebuilder/node"
-	"github.com/elysiumorg/elysium-node/share/availability/discovery"
-	"github.com/elysiumorg/elysium-node/share/availability/light"
-	"github.com/elysiumorg/elysium-node/share/p2p/peers"
-	"github.com/elysiumorg/elysium-node/share/p2p/shrexeds"
-	"github.com/elysiumorg/elysium-node/share/p2p/shrexnd"
+	"github.com/furyaxyz/elysium-node/nodebuilder/node"
+	"github.com/furyaxyz/elysium-node/share/availability/discovery"
+	"github.com/furyaxyz/elysium-node/share/availability/light"
+	"github.com/furyaxyz/elysium-node/share/p2p/peers"
+	"github.com/furyaxyz/elysium-node/share/p2p/shrexeds"
+	"github.com/furyaxyz/elysium-node/share/p2p/shrexnd"
 )
 
 // TODO: some params are pointers and other are not, Let's fix this.

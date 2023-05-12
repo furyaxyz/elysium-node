@@ -5,9 +5,9 @@ import (
 
 	"github.com/cosmos/cosmos-sdk/x/staking/types"
 
-	"github.com/elysiumorg/nmt/namespace"
+	"github.com/furyaxyz/nmt/namespace"
 
-	"github.com/elysiumorg/elysium-node/state"
+	"github.com/furyaxyz/elysium-node/state"
 )
 
 var _ Module = (*API)(nil)

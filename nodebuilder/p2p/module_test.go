@@ -9,8 +9,8 @@ import (
 	"go.uber.org/fx"
 	"go.uber.org/fx/fxtest"
 
-	"github.com/elysiumorg/elysium-node/libs/keystore"
-	"github.com/elysiumorg/elysium-node/nodebuilder/node"
+	"github.com/furyaxyz/elysium-node/libs/keystore"
+	"github.com/furyaxyz/elysium-node/nodebuilder/node"
 )
 
 func testModule(tp node.Type) fx.Option {

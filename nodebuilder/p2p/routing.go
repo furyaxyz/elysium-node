@@ -10,7 +10,7 @@ import (
 	"github.com/libp2p/go-libp2p/core/routing"
 	"go.uber.org/fx"
 
-	"github.com/elysiumorg/elysium-node/nodebuilder/node"
+	"github.com/furyaxyz/elysium-node/nodebuilder/node"
 )
 
 // contentRouting constructs nil content routing,

@@ -5,7 +5,7 @@ package header_pb
 
 import (
 	fmt "fmt"
-	da "github.com/elysiumorg/elysium-app/proto/elysium/da"
+	da "github.com/furyaxyz/elysium-app/proto/elysium/da"
 	proto "github.com/gogo/protobuf/proto"
 	types "github.com/tendermint/tendermint/proto/tendermint/types"
 	io "io"

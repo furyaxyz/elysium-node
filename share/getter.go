@@ -7,9 +7,9 @@ import (
 
 	"github.com/minio/sha256-simd"
 
-	"github.com/elysiumorg/nmt"
-	"github.com/elysiumorg/nmt/namespace"
-	"github.com/elysiumorg/rsmt2d"
+	"github.com/furyaxyz/nmt"
+	"github.com/furyaxyz/nmt/namespace"
+	"github.com/furyaxyz/rsmt2d"
 )
 
 // ErrNotFound is used to indicated that requested data could not be found.

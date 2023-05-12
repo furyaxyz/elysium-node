@@ -37,18 +37,18 @@ func bootstrappersFor(net Network) ([]string, error) {
 
 // NOTE: Every time we add a new long-running network, its bootstrap peers have to be added here.
 var bootstrapList = map[Network][]string{
-	Arabica: {
+	Aeneid: {
 		"/dns4/limani.elysium-devops.dev/tcp/2121/p2p/12D3KooWDgG69kXfmSiHjUErN2ahpUC1SXpSfB2urrqMZ6aWC8NS",
 		"/dns4/marsellesa.elysium-devops.dev/tcp/2121/p2p/12D3KooWHr2wqFAsMXnPzpFsgxmePgXb8BqpkePebwUgLyZc95bd",
 		"/dns4/parainem.elysium-devops.dev/tcp/2121/p2p/12D3KooWHX8xpwg8qkP7kLKmKGtgZvmsopvgxc6Fwtu665QC7G8q",
 		"/dns4/kaarina.elysium-devops.dev/tcp/2121/p2p/12D3KooWN6fzdt4sG5QfWRPn4kwCQBdkt7TDNQkWsUymAwKrmvUs",
 	},
-	Mocha: {
+	Thebaid: {
 		"/dns4/andromeda.elysium-devops.dev/tcp/2121/p2p/12D3KooWKvPXtV1yaQ6e3BRNUHa5Phh8daBwBi3KkGaSSkUPys6D",
 		"/dns4/libra.elysium-devops.dev/tcp/2121/p2p/12D3KooWK5aDotDcLsabBmWDazehQLMsDkRyARm1k7f1zGAXqbt4",
 		"/dns4/norma.elysium-devops.dev/tcp/2121/p2p/12D3KooWHYczJDVNfYVkLcNHPTDKCeiVvRhg8Q9JU3bE3m9eEVyY",
 	},
-	BlockspaceRace: {
+	Okeanus: {
 		"/dns4/bootstr-incent-3.elysium.tools/tcp/2121/p2p/12D3KooWNzdKcHagtvvr6qtjcPTAdCN6ZBiBLH8FBHbihxqu4GZx",
 		"/dns4/bootstr-incent-2.elysium.tools/tcp/2121/p2p/12D3KooWNJZyWeCsrKxKrxsNM1RVL2Edp77svvt7Cosa63TggC9m",
 		"/dns4/bootstr-incent-1.elysium.tools/tcp/2121/p2p/12D3KooWBtxdBzToQwnS4ySGpph9PtGmmjEyATkgX3PfhAo4xmf7",

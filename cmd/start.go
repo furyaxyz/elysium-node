@@ -11,10 +11,10 @@ import (
 	"github.com/spf13/cobra"
 	flag "github.com/spf13/pflag"
 
-	"github.com/elysiumorg/elysium-app/app"
-	"github.com/elysiumorg/elysium-app/app/encoding"
+	"github.com/furyaxyz/elysium-app/app"
+	"github.com/furyaxyz/elysium-app/app/encoding"
 
-	"github.com/elysiumorg/elysium-node/nodebuilder"
+	"github.com/furyaxyz/elysium-node/nodebuilder"
 )
 
 // Start constructs a CLI command to start Elysium Node daemon of any type with the given flags.
@@ -37,7 +37,7 @@ Options passed on start override configuration options only on start and are not
 
 			// construct ring
 			// TODO @renaynay: Include option for setting custom `userInput` parameter with
-			//  implementation of https://github.com/elysiumorg/elysium-node/issues/415.
+			//  implementation of https://github.com/furyaxyz/elysium-node/issues/415.
 			encConf := encoding.MakeConfig(app.ModuleEncodingRegisters...)
 			ring, err := keyring.New(app.Name, cfg.State.KeyringBackend, keysPath, os.Stdin, encConf.Codec)
 			if err != nil {

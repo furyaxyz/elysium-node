@@ -3,10 +3,10 @@ package header
 import (
 	"context"
 
-	libhead "github.com/elysiumorg/go-header"
-	"github.com/elysiumorg/go-header/sync"
+	libhead "github.com/furyaxyz/go-header"
+	"github.com/furyaxyz/go-header/sync"
 
-	"github.com/elysiumorg/elysium-node/header"
+	"github.com/furyaxyz/elysium-node/header"
 )
 
 // Module exposes the functionality needed for querying headers from the network.

@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	availability_test "github.com/elysiumorg/elysium-node/share/availability/test"
+	availability_test "github.com/furyaxyz/elysium-node/share/availability/test"
 )
 
 func TestShareAvailableOverMocknet_Full(t *testing.T) {

@@ -25,7 +25,7 @@ ENV ELESYIUM_HOME=/home/${USER_NAME}
 
 # Default node type can be overwritten in deployment manifest
 ENV NODE_TYPE bridge
-ENV P2P_NETWORK mocha
+ENV P2P_NETWORK thebaid
 
 # hadolint ignore=DL3018
 RUN apk update && apk add --no-cache \

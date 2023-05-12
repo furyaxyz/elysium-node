@@ -7,8 +7,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/elysiumorg/elysium-node/api/docgen"
-	"github.com/elysiumorg/elysium-node/nodebuilder"
+	"github.com/furyaxyz/elysium-node/api/docgen"
+	"github.com/furyaxyz/elysium-node/nodebuilder"
 )
 
 var rootCmd = &cobra.Command{

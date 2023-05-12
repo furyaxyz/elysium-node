@@ -6,7 +6,7 @@ import (
 
 	pubsub "github.com/libp2p/go-libp2p-pubsub"
 
-	pb "github.com/elysiumorg/elysium-node/share/p2p/shrexsub/pb"
+	pb "github.com/furyaxyz/elysium-node/share/p2p/shrexsub/pb"
 )
 
 // Subscription is a wrapper over pubsub.Subscription that handles

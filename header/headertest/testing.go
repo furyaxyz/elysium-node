@@ -20,13 +20,13 @@ import (
 	"github.com/tendermint/tendermint/types"
 	tmtime "github.com/tendermint/tendermint/types/time"
 
-	"github.com/elysiumorg/elysium-app/pkg/da"
-	libhead "github.com/elysiumorg/go-header"
-	"github.com/elysiumorg/go-header/headertest"
-	"github.com/elysiumorg/rsmt2d"
+	"github.com/furyaxyz/elysium-app/pkg/da"
+	libhead "github.com/furyaxyz/go-header"
+	"github.com/furyaxyz/go-header/headertest"
+	"github.com/furyaxyz/rsmt2d"
 
-	"github.com/elysiumorg/elysium-node/header"
-	"github.com/elysiumorg/elysium-node/share"
+	"github.com/furyaxyz/elysium-node/header"
+	"github.com/furyaxyz/elysium-node/share"
 )
 
 var log = logging.Logger("headertest")

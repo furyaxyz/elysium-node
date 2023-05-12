@@ -15,9 +15,9 @@ import (
 	"go.uber.org/fx"
 	"golang.org/x/crypto/blake2b"
 
-	"github.com/elysiumorg/go-fraud"
-	"github.com/elysiumorg/go-fraud/fraudserv"
-	headp2p "github.com/elysiumorg/go-header/p2p"
+	"github.com/furyaxyz/go-fraud"
+	"github.com/furyaxyz/go-fraud/fraudserv"
+	headp2p "github.com/furyaxyz/go-header/p2p"
 )
 
 func init() {

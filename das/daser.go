@@ -9,13 +9,13 @@ import (
 	"github.com/ipfs/go-datastore"
 	logging "github.com/ipfs/go-log/v2"
 
-	"github.com/elysiumorg/go-fraud"
-	libhead "github.com/elysiumorg/go-header"
+	"github.com/furyaxyz/go-fraud"
+	libhead "github.com/furyaxyz/go-header"
 
-	"github.com/elysiumorg/elysium-node/header"
-	"github.com/elysiumorg/elysium-node/share"
-	"github.com/elysiumorg/elysium-node/share/eds/byzantine"
-	"github.com/elysiumorg/elysium-node/share/p2p/shrexsub"
+	"github.com/furyaxyz/elysium-node/header"
+	"github.com/furyaxyz/elysium-node/share"
+	"github.com/furyaxyz/elysium-node/share/eds/byzantine"
+	"github.com/furyaxyz/elysium-node/share/p2p/shrexsub"
 )
 
 var log = logging.Logger("das")

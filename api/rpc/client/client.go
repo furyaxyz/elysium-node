@@ -7,14 +7,14 @@ import (
 
 	"github.com/filecoin-project/go-jsonrpc"
 
-	"github.com/elysiumorg/elysium-node/api/rpc/perms"
-	"github.com/elysiumorg/elysium-node/nodebuilder/das"
-	"github.com/elysiumorg/elysium-node/nodebuilder/fraud"
-	"github.com/elysiumorg/elysium-node/nodebuilder/header"
-	"github.com/elysiumorg/elysium-node/nodebuilder/node"
-	"github.com/elysiumorg/elysium-node/nodebuilder/p2p"
-	"github.com/elysiumorg/elysium-node/nodebuilder/share"
-	"github.com/elysiumorg/elysium-node/nodebuilder/state"
+	"github.com/furyaxyz/elysium-node/api/rpc/perms"
+	"github.com/furyaxyz/elysium-node/nodebuilder/das"
+	"github.com/furyaxyz/elysium-node/nodebuilder/fraud"
+	"github.com/furyaxyz/elysium-node/nodebuilder/header"
+	"github.com/furyaxyz/elysium-node/nodebuilder/node"
+	"github.com/furyaxyz/elysium-node/nodebuilder/p2p"
+	"github.com/furyaxyz/elysium-node/nodebuilder/share"
+	"github.com/furyaxyz/elysium-node/nodebuilder/state"
 )
 
 // TODO: this duplication of strings many times across the codebase can be avoided with issue #1176
